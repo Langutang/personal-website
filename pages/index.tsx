@@ -24,27 +24,27 @@ const Home = () => {
         <PageWrapper>
           <article>
             <motion.h1
-              data-text="I'm Adenekan Wonderful"
+              data-text="I'm John Lang"
               className="intro__text"
               {...getTransitions(0.1)}
             >
-              <mark className="mark">I&apos;m Adenekan Wonderful</mark>
+              <mark className="mark">I&apos;m John Lang</mark>
             </motion.h1>
             <motion.p {...getTransitions(0.3)}>
               {' '}
-              Your friendly neighborhood frontend developer, UX architect, and
-              JavaScript engineer. I spend my days (and often nights) painting
-              the Internet canvas with{' '}
+              Your friendly neighborhood distributed computer engineer, data scientist, and
+              roboticist. I spend my days (and often nights) developing the computer industry from my garage. 
+              See from my {' '}
               <Link href="/projects" aria-label="Go to Projects Page">
                 Projects
               </Link>{' '}
-              and lines of code, turning zeroes and ones into immersive,
-              interactive experiences,{' '}
+              I'm writing lines of code, turning zeroes and ones into intelligent, highly-scalable,
+              interactive machines,{' '}
             </motion.p>
             <motion.p {...getTransitions(0.5)}>
-              Bona fide photochromic{' '}
+              Bona fide{' '}
               <Link href="/articles" aria-label="Check out my Lens">
-                Lens
+                Teacher
               </Link>{' '}
               enthusiast - sunlight or indoors, I&apos;ve got it covered. I
               tread the path of minimalism, finding beauty in simplicity and
