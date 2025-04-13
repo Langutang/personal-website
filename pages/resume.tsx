@@ -39,7 +39,7 @@ const Resume = () => {
                   rel="noopener noreferrer"
                   aria-label="Go to Resumé Page"
                 >
-                  view
+                  View
                 </a>
               </b>{' '}
               or{' '}
@@ -50,7 +50,7 @@ const Resume = () => {
                   rel="noopener noreferrer"
                   aria-label="Go to Resumé Page"
                 >
-                  download
+                  Download
                 </a>
               </b>{' '}
               the resume{' '}
@@ -62,13 +62,13 @@ const Resume = () => {
             allowFullScreen
             width="740"
             height="780"
-            title="Adenekan Wonderful Resumé"
+            title="John Lang Resumé"
           />
         </PageSection>
         <br />
         <br />
         <FooterLink goto="/contact" className="mt-3 mb-5">
-          Are you convinced to contact me now ?
+          Convinced to contact me now ?
         </FooterLink>
         <br />
       </PageWrapper>

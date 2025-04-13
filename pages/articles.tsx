@@ -15,10 +15,10 @@ import { PageSection } from './projects';
 const Articles = () => {
   const articles = useContext(ArticleContext);
   return (
-    <Layout title="Articles">
+    <Layout title="Writing.">
       <PageSection>
         <PageWrapper>
-          <h1 className="intro__text">Writing.</h1> <br />
+          <h1 className="intro__text">Writing</h1> <br />
           <Tabs>
             <TabItems label="All">
               <MansoryLayout>
@@ -53,7 +53,7 @@ const Articles = () => {
 
       <PageWrapper>
         <FooterLink goto="/contact" className="mt-3 mb-5">
-          Can you say hi now ?.
+          Come say hey, you
         </FooterLink>
         <br />
       </PageWrapper>

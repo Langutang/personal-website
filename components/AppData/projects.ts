@@ -78,7 +78,7 @@ const PROJECTS_DATA = [
     technologies: ['Python', 'CM4', 'OpenCV', 'GraphCMS'],
   },
   {
-    title: 'Procedure Expectation from Skin Image or Chest X-Ray',
+    title: 'Procedure & Cost Expectation from Skin Image or Chest X-Ray',
     description: 'Give me an image and profile, I will give you cost',
     about:      "Deep Learning into taking a patient profile, location, as well as a medical image to estimate the likely cost of care for likely diagnosis.",
     link:
@@ -88,7 +88,7 @@ const PROJECTS_DATA = [
     technologies: ['Python', 'Django', 'MLFlow', 'Databricks'],
   },
   {
-    title: 'Voquo.io - Transparency in Diplomacy',
+    title: 'Voquo.io - Transparency in Diplomacy with Data',
     description: 'Highlighting policy transparency aggregating data across government agencies ',
     about:      "Tangential to the government transparency act, voquo was founded to partner with Databricks and Snowflake to offer free government datasets for easier, public access.",
     link:
@@ -106,6 +106,16 @@ const PROJECTS_DATA = [
     imageUrl: 'https://i.ibb.co/Kzsjy1sY/68747470733a2f2f692e6962622e636f2f774a524832776e2f686f6d652e706e67.png',
      type: ['open-source'],
     technologies: ['Python', 'Django', 'Snowflake', 'Databricks', 'scipy'],
+  },
+  {
+    title: 'Great Expectations - Contributor',
+    description: 'Contributor on the great expectations data validation framework',
+    about:      "Created PRs for validation checks that I needed in various work pipelines. Ended up becoming a contributor on the framework",
+    link:
+      'https://greatexpectations.io/expectations/',
+    imageUrl: 'https://i.ibb.co/W42kH7PW/qwef.png',
+     type: ['open-source'],
+    technologies: ['Python'],
   },
 ];
 
