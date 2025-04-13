@@ -12,7 +12,7 @@ import Layout, { PageWrapper } from '../components/Layout';
 import FooterLink from '../components/Footer';
 
 /* ---------------------------- Image Dependency ---------------------------- */
-import { Date, Github, Dribble, Product } from '../components/Icons';
+import { Date, Github, Rocket, Product, Medium } from '../components/Icons';
 
 const About = () => {
   return (
@@ -55,19 +55,19 @@ const About = () => {
                 </p>
               </li>
               <li>
-                <Link href="/projects" aria-label="Open Products Page">
+                <Link href="https://www.linkedin.com/in/johnvjlang/" aria-label="Open Products Page">
                   Data Engineering{' '}
                   <small>
                     <Product />
                   </small>
                 </Link>
                 <Link
-                  href="/projects"
+                  href="https://www.linkedin.com/in/johnvjlang/"
                   aria-label="Open Products Page"
                   id="cardHover"
                   className="float-right"
                 >
-                  View Products
+                  View LinkedIn
                 </Link>
                 <p>
                 I work comfortably at petabyte scale, particularly within sensitive and regulated domains like healthcare. 
@@ -83,11 +83,11 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Open Design Link"
-                  href="https://dribbble.com/codewonders"
+                  href="https://www.linkedin.com/in/johnvjlang/"
                 >
                   Data Science{' '}
                   <small>
-                    <Dribble />
+                    <Rocket />
                   </small>
                 </a>
                 <a
@@ -95,10 +95,10 @@ const About = () => {
                   rel="noopener noreferrer"
                   aria-label="Open Design Link"
                   id="cardHover"
-                  href="https://dribbble.com/codewonders"
+                  href="https://www.linkedin.com/in/johnvjlang/"
                   className="float-right"
                 >
-                  View Dribbble
+                  View LinkedIn
                 </a>
                 <p>
                 From predicting the most cost-effective healthcare plans to building insurance pricing models for e-commerce platforms, 
@@ -114,11 +114,11 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Open Design Link"
-                  href="https://dribbble.com/codewonders"
+                  href="/projects"
                 >
                   Firmware Engineering{' '}
                   <small>
-                    <Dribble />
+                    <Rocket />
                   </small>
                 </a>
                 <a
@@ -126,10 +126,10 @@ const About = () => {
                   rel="noopener noreferrer"
                   aria-label="Open Design Link"
                   id="cardHover"
-                  href="https://dribbble.com/codewonders"
+                  href="/projects"
                   className="float-right"
                 >
-                  View Dribbble
+                  View Projects
                 </a>
                 <p>
                 Firmware development is more than a skill—it’s my creative playground. Whether I’m coding motion algorithms for an 
@@ -185,6 +185,17 @@ const About = () => {
                   autonomous, militaristic machines{' '}
                 </p>
               </li>
+            </ul>
+          </article>
+        </PageWrapper>
+
+        <PageWrapper
+          className="mb-5"
+          aria-label="Certified with the cloud"
+        >
+          <article>
+            <h4>Certifications</h4>
+              <ul className="timeline">
               <li>
                 <a
                   target="_blank"
@@ -211,7 +222,7 @@ const About = () => {
                   aria-label="Open Link Data Structure And Algorithm"
                   href="https://www.credly.com/badges/a19943ab-3647-40ed-be11-eda491934f94/linked_in_profile"
                 >
-                  Databricks Architect <small>Databricks</small>
+                  Databricks Expert Architect <small>Databricks</small>
                 </a>
                 <a className="float-right" tabIndex={-1}>
                   <Date /> <b>2022</b>
@@ -239,6 +250,17 @@ const About = () => {
                   within the Snowflake cloud environment. Using tools daily to sell data on the marketplace, aggregate for reports, or drive a new product pipeline {' '}
                 </p>
               </li>
+              </ul>
+          </article>
+        </PageWrapper>
+
+        <PageWrapper
+          className="mb-5"
+          aria-label="Welcome to my specializations"
+        >
+          <article>
+            <h4>Specializations</h4>
+              <ul className="timeline">
               <li>
                 <a
                   target="_blank"
@@ -275,10 +297,9 @@ const About = () => {
                   skills to become a better leader in technology
                 </p>
               </li>
-            </ul>
+              </ul>
           </article>
         </PageWrapper>
-
         <PageWrapper
           className="mb-5"
           aria-label="You are now in my musical playlist section"

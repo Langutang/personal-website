@@ -36,11 +36,14 @@ const Home = () => {
               I spend my days (and nights) adventuring in the embedded and machine learning industry often in my garage.
               I've been developing software for over eight years, with the last three focused on leading engineering teams across data science, 
               machine learning, and data engineering. From building predictive models and autonomous pipelines to 
-              architecting large-scale data systems, my work has spanned the full data lifecycle. 
-              Now, I'm looking to bring that experience into a space that blends my professional expertise with a 
+              architecting large-scale data systems, my work has spanned the full data lifecycle.
+            </motion.p>
+            <motion.p {...getTransitions(0.3)}>
+              {' '}
+              <strong>I'm love to bridge my career into a space that blends my professional expertise with a 
               personal passion—robotics and embedded systems. Whether it's firmware development, edge computing, or intelligent automation, 
-              I'm excited to apply what I’ve learned in AI and data to the physical world through robotics and hardware innovation. End goal,
-              being able to work in robotic prosthesis. Ask me why and it'll bring red wine with a long monologue. 
+              I love to apply what I’ve learned in AI and data to the physical world through robotics and hardware innovation. End goal,
+              being able to work in robotic prosthesis. Ask me why and it'll bring red wine with a long monologue. </strong>
             </motion.p>
             <motion.p {...getTransitions(0.3)}>
               {' '}
@@ -53,9 +56,9 @@ const Home = () => {
             <motion.p {...getTransitions(0.5)}>
               Bona fide{' '}
               <Link href="/articles" aria-label="Check out my Lens">
-                Researcher
+                Research
               </Link>{' '}
-              enthusiast. If there is a problem that can be solved through statistics, I&apos;ve got it covered. I have spent my whole career in machine learning and 
+              enthusiast. If there is a problem that can be solved through statistics, technology, or autonomous machines, I&apos;ve got it covered. I have spent my whole career in machine learning and 
               data engineering. Data and its interpretation are my closest acquaintance. I am looking to apply my skills to expedite robotic automation and decision process.
               If you are looking for an experienced engineer to build your next machine, {' '}
               <Link href="/contact" aria-label="Go to Contact Page">

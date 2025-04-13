@@ -9,12 +9,11 @@ import styled from 'styled-components';
 
 import {
   IconRight,
-  Twitter,
-  Facebook,
   Linkedin,
+  Medium,
+  Rocket,
+  HuggingFace,
   Github,
-  Instagram,
-  Dribble,
 } from '../Icons';
 
 /* ---------------------------- Style Dependency ---------------------------- */
@@ -45,24 +44,6 @@ const FooterLink: React.FC<IFooterLink &
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://twitter.com/code_wonders"
-          aria-label="Go To Adenekan Wonderful Twitter Page"
-          title="Twitter Page"
-        >
-          <Twitter />
-        </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.facebook.com/AdenekanWonderful"
-          aria-label="Go To Adenekan Wonderful Facebook Page"
-          title="Facebook Page"
-        >
-          <Facebook />
-        </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
           href="https://linkedin.com/in/johnvjlang"
           aria-label="Go To Lang's Linkedin Page"
           title="Linkedin Page"
@@ -85,7 +66,7 @@ const FooterLink: React.FC<IFooterLink &
           aria-label="Go To Project Rocket"
           title="Rocket PSA Page"
         >
-          <Dribble />
+          <Rocket />
         </a>
         <a
           target="_blank"
@@ -94,7 +75,16 @@ const FooterLink: React.FC<IFooterLink &
           aria-label="Go To Lang's Medium Page"
           title="Medium Page"
         >
-          <Instagram />
+          <Medium />
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://huggingface.co/langutang"
+          aria-label="Go To Lang's HuggingFace Page"
+          title="HuggingFace Page"
+        >
+          <HuggingFace />
         </a>
       </SocialMedia>
     </>
