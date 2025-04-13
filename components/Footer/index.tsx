@@ -63,8 +63,8 @@ const FooterLink: React.FC<IFooterLink &
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://linkedin.com/in/johnvlang"
-          aria-label="Go To Adenekan Wonderful Linkedin Page"
+          href="https://linkedin.com/in/johnvjlang"
+          aria-label="Go To Lang's Linkedin Page"
           title="Linkedin Page"
         >
           <Linkedin />
@@ -72,8 +72,8 @@ const FooterLink: React.FC<IFooterLink &
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/adenekan41"
-          aria-label="Go To Adenekan Wonderful Github Page"
+          href="https://github.com/Langutang"
+          aria-label="Go To Lang's Github Page"
           title="Github Page"
         >
           <Github />
@@ -81,18 +81,18 @@ const FooterLink: React.FC<IFooterLink &
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://dribbble.com/codewonders"
-          aria-label="Go To Adenekan Wonderful Dribble Page"
-          title="Dribbble Page"
+          href="https://rocket-command.com"
+          aria-label="Go To Project Rocket"
+          title="Rocket PSA Page"
         >
           <Dribble />
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://instagram.com/codewonders"
-          aria-label="Go To Adenekan Wonderful Instagram Page"
-          title="Instagram Page"
+          href="https://medium.com/@johnnylang"
+          aria-label="Go To Lang's Medium Page"
+          title="Medium Page"
         >
           <Instagram />
         </a>

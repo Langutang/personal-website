@@ -32,32 +32,32 @@ const Home = () => {
             </motion.h1>
             <motion.p {...getTransitions(0.3)}>
               {' '}
-              Your friendly neighborhood distributed computer engineer, data scientist, and
-              roboticist. I spend my days (and often nights) developing the computer industry from my garage. 
-              See from my {' '}
+              Your friendly neighborhood distributed engineer, outdoor adventurist, and survivalist. 
+              I spend my days (and nights) adventuring in the embedded and machine learning industry often in my garage.
+              I've been developing software for over eight years, with the last three focused on leading engineering teams across data science, 
+              machine learning, and data engineering. From building predictive models and autonomous pipelines to 
+              architecting large-scale data systems, my work has spanned the full data lifecycle. 
+              Now, I'm looking to bring that experience into a space that blends my professional expertise with a 
+              personal passion—robotics and embedded systems. Whether it's firmware development, edge computing, or intelligent automation, 
+              I'm excited to apply what I’ve learned in AI and data to the physical world through robotics and hardware innovation. End goal,
+              being able to work in robotic prosthesis. Ask me why and it'll bring red wine with a long monologue. 
+            </motion.p>
+            <motion.p {...getTransitions(0.3)}>
+              {' '}
+              Venture over to my  {' '}
               <Link href="/projects" aria-label="Go to Projects Page">
                 Projects
               </Link>{' '}
-              I'm writing lines of code, turning zeroes and ones into intelligent, highly-scalable,
-              interactive machines,{' '}
+              to see the latest edge computing, robotics, or machine learning application I have put together.{' '}
             </motion.p>
             <motion.p {...getTransitions(0.5)}>
               Bona fide{' '}
               <Link href="/articles" aria-label="Check out my Lens">
-                Teacher
+                Researcher
               </Link>{' '}
-              enthusiast - sunlight or indoors, I&apos;ve got it covered. I
-              tread the path of minimalism, finding beauty in simplicity and
-              order. When I'm not crafting beautiful web experiences, you can
-              find me reading{' '}
-              <Link
-                href="/articles"
-                aria-label="Go to Articles Page And Check What I Read"
-              >
-                Articles
-              </Link>{' '}
-              or swaying to the rhythm of Pop Music & Jazz, losing myself in the
-              captivating flow of melodies. anyways you can{' '}
+              enthusiast. If there is a problem that can be solved through statistics, I&apos;ve got it covered. I have spent my whole career in machine learning and 
+              data engineering. Data and its interpretation are my closest acquaintance. I am looking to apply my skills to expedite robotic automation and decision process.
+              If you are looking for an experienced engineer to build your next machine, {' '}
               <Link href="/contact" aria-label="Go to Contact Page">
                 Contact Me
               </Link>

@@ -18,8 +18,8 @@ const Contact = () => {
           <h1 className="intro__text">Contact.</h1>
           <article>
             <p>
-              Get in touch or shoot me an email directly on{' '}
-              <b>hellocodewonders@gmail.com</b>
+              Get in touch or shoot me an email directly at{' '}
+              <b>johnvjlang@gmail.com</b>
             </p>
           </article>
           <br />

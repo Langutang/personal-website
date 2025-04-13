@@ -29,21 +29,21 @@ const Projects = () => {
                 ))}
               </MansoryLayout>
             </TabItems>
-            <TabItems label="Projects">
+            <TabItems label="AI and ML">
               <MansoryLayout>
                 {projectsData.map(
                   (item, index) =>
-                    item.type.includes('project') && (
+                    item.type.includes('ai-ml') && (
                       <MansoryItem key={index} item={item} />
                     )
                 )}
               </MansoryLayout>
             </TabItems>
-            <TabItems label="Dev Tools">
+            <TabItems label="Robotics">
               <MansoryLayout>
                 {projectsData.map(
                   (item, index) =>
-                    item.type.includes('tools') && (
+                    item.type.includes('robotics') && (
                       <MansoryItem key={index} item={item} />
                     )
                 )}
@@ -59,7 +59,7 @@ const Projects = () => {
                 )}
               </MansoryLayout>
             </TabItems>
-            <TabItems label="Designs" href="https://dribbble.com/codewonders" />
+            <TabItems label="Github" href="https://github.com/Langutang" />
           </Tabs>
         </PageWrapper>
       </PageSection>

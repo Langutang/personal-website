@@ -29,10 +29,10 @@ const About = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Open Github Link"
-                  href="https://github.com/adenekan41"
+                  aria-label="Open LinkedIn Link"
+                  href="https://www.linkedin.com/in/johnvjlang/"
                 >
-                  Engineering{' '}
+                  Leadership{' '}
                   <small>
                     <Github />
                   </small>
@@ -40,31 +40,23 @@ const About = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Open Github Link"
+                  aria-label="Open LinkedIn Link"
                   id="cardHover"
-                  href="https://github.com/adenekan41"
+                  href="https://www.linkedin.com/in/johnvjlang/"
                   className="float-right"
                 >
-                  View Github
+                  View LinkedIn
                 </a>
                 <p>
-                  The power of first impressions cannot be underestimated, and
-                  the gateway to capitalizing on them lies in exceptional
-                  website design. An outstanding website transcends mere
-                  aesthetics and extends its influence to encompass seamless
-                  functionality and user-friendly navigation. Drawing upon my
-                  expertise as a seasoned programmer, I possess the unique
-                  ability to tackle intricate technical challenges while
-                  crafting websites that exude sleekness and visual allure.
-                  Moreover, my extensive knowledge of recognized technical
-                  standards is complemented by my proficiency in modern building
-                  practices, ensuring that every aspect of your website is
-                  finely tuned to perfection.
+                As a Data Engineering and Science Manager, I lead a high-performing team of six engineers and data scientists, driving innovation across complex data domains. 
+                My leadership journey has evolved into a strategic architecture role, where I guide companies on unifying data engineering methodologies and implementing 
+                robust MLOps practices. From building internal systems that scale across teams to architecting MLFlow pipelines for model governance and reproducibility, 
+                I bridge the gap between business goals and technical execution with a sharp focus on velocity, reliability, and long-term impact.
                 </p>
               </li>
               <li>
                 <Link href="/projects" aria-label="Open Products Page">
-                  Product{' '}
+                  Data Engineering{' '}
                   <small>
                     <Product />
                   </small>
@@ -78,15 +70,11 @@ const About = () => {
                   View Products
                 </Link>
                 <p>
-                  While I may not fit the conventional mold of a product
-                  manager, my diverse skill set in research, product design, and
-                  product coordination empowers me to drive the growth of a
-                  product from its inception. As an exceptional analytical
-                  thinker, I possess the ability to uphold the product's vision
-                  throughout its entire journey, effectively bridging the
-                  technical and product aspects. By leveraging my expertise, I
-                  can navigate the path from 0 to 1, ensuring the product's
-                  success at every stage.
+                I work comfortably at petabyte scale, particularly within sensitive and regulated domains like healthcare. 
+                I specialize in owning end-to-end data ecosystems—aggregating, cleaning, and transforming vast datasets into actionable systems 
+                such as automated reporting platforms, real-time notification engines, and user-facing products. Whether it's streaming architecture, 
+                lakehouse design, or complex ETL orchestration, I bring both the technical and product sense needed to turn raw data into business value for 
+                internal stakeholders and external clients alike.
                 </p>
               </li>
 
@@ -97,7 +85,7 @@ const About = () => {
                   aria-label="Open Design Link"
                   href="https://dribbble.com/codewonders"
                 >
-                  Design{' '}
+                  Data Science{' '}
                   <small>
                     <Dribble />
                   </small>
@@ -113,14 +101,42 @@ const About = () => {
                   View Dribbble
                 </a>
                 <p>
-                  Despite not fitting the typical designer stereotype, my
-                  exceptional visual abilities enable me to excel as a
-                  presenter, effectively conveying design concepts to
-                  stakeholders and design teams. I possess a remarkable aptitude
-                  for conceptualization, allowing me to envision and bring forth
-                  stunning creations. Additionally, my expertise lies in
-                  fine-tuning stylesheets and crafting seamless user experiences
-                  that flow effortlessly.
+                From predicting the most cost-effective healthcare plans to building insurance pricing models for e-commerce platforms, 
+                I’ve developed and deployed machine learning solutions that move the needle. I’ve built everything from production-grade 
+                facial recognition filters to recommendation systems and autonomous retraining pipelines. I’m equally at home with 
+                classical models and cutting-edge deep learning, and I thrive in cross-functional environments where experimentation, 
+                iteration, and ownership are key.
+                </p>
+              </li>
+
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Design Link"
+                  href="https://dribbble.com/codewonders"
+                >
+                  Firmware Engineering{' '}
+                  <small>
+                    <Dribble />
+                  </small>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open Design Link"
+                  id="cardHover"
+                  href="https://dribbble.com/codewonders"
+                  className="float-right"
+                >
+                  View Dribbble
+                </a>
+                <p>
+                Firmware development is more than a skill—it’s my creative playground. Whether I’m coding motion algorithms for an 
+                XGO Lite robot dog, prototyping smart home tech like a voice-controlled mirror, or deploying object-tracking 
+                systems across a Coral TPU, I love pushing the boundaries of what’s possible at the edge. I’ve built virtual assistants using ChatGPT, 
+                and even created a networked edge-computing camera that scans physical invoices and transfers digital records across systems. 
+                It’s hands-on, systems-level engineering that reminds me why I started building in the first place.
                 </p>
               </li>
             </ul>
@@ -132,7 +148,7 @@ const About = () => {
           aria-label="You are now in my musical playlist section"
         >
           <article>
-            <h4>My Reads.</h4>
+            <h4>Education</h4>
             <ul className="timeline">
               <li>
                 <a
@@ -140,20 +156,15 @@ const About = () => {
                   rel="noopener noreferrer"
                   id="cardHover"
                   aria-label="Open Human Centered Design 101"
-                  href="https://www.plusacumen.org/courses/introduction-human-centered-design"
+                  href="https://www.wabash.edu/"
                 >
-                  Human Centered Design 101. <small>Acumen</small>
+                  Bachelor's in Mathematics <small>Wabash College</small>
                 </a>
                 <a className="float-right" tabIndex={-1}>
-                  <Date /> <b>2017 - 2018</b>
+                  <Date /> <b>Crawfordsville, IN</b>
                 </a>
                 <p>
-                  This is an intensive, hands-on learning experience that will
-                  challenge you to get out of your chair and out into the real
-                  world to talk to people and test your ideas. You’ll leave this
-                  experience equipped and energized to apply the human-centered
-                  design process to challenges across industries, sectors, and
-                  geographies to generate breakthrough ideas.
+                  Bachelor's in Mathematics with a focus on financial pricing and probabilistic models.
                 </p>
               </li>
               <li>
@@ -162,19 +173,70 @@ const About = () => {
                   rel="noopener noreferrer"
                   id="cardHover"
                   aria-label="Open Link Data Structure And Algorithm"
-                  href="https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/"
+                  href="https://www.eastern.edu/"
                 >
-                  Data Structure And Algorithm. <small>Udemy</small>
+                  Master's in Data Science and Statistics <small>Eastern University</small>
                 </a>
                 <a className="float-right" tabIndex={-1}>
-                  <Date /> <b>2019</b>
+                  <Date /> <b>Saint Davids, PA</b>
                 </a>
                 <p>
-                  Many developers who are &quot;self taught&quot;, feel that one
-                  of the main disadvantages they face compared to college
-                  educated graduates in computer science is the fact that they
-                  don&apos;t have knowledge about algorithms, data structures
-                  and the notorious Big-O Notation
+                  Master's Degree in Data Science and Statistics from Eastern Univseristy. Focusing in on the implementation and ethical dillemas with militaristic,
+                  autonomous, militaristic machines{' '}
+                </p>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="cardHover"
+                  aria-label="Open Link Data Structure And Algorithm"
+                  href="https://www.credly.com/badges/a19943ab-3647-40ed-be11-eda491934f94/linked_in_profile"
+                >
+                  Azure Solutions Architect <small>Microsoft</small>
+                </a>
+                <a className="float-right" tabIndex={-1}>
+                  <Date /> <b>2022</b>
+                </a>
+                <p>
+                  3 part specialization achievement - azure foundations, azure admin associate, azure solution expert. Learned all tools and resources available
+                  within the Azure cloud environment. Using tools daily to orchestrate data or machine learning flows {' '}
+                </p>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="cardHover"
+                  aria-label="Open Link Data Structure And Algorithm"
+                  href="https://www.credly.com/badges/a19943ab-3647-40ed-be11-eda491934f94/linked_in_profile"
+                >
+                  Databricks Architect <small>Databricks</small>
+                </a>
+                <a className="float-right" tabIndex={-1}>
+                  <Date /> <b>2022</b>
+                </a>
+                <p>
+                  3 part specialization achievement - Databricks Foundation, Databricks Associate Engineer, Databricks Advanced Data Engineer. Learned all tools and resources available
+                  within the Databricks cloud environment. Using tools daily to model machine learning pipelines, create new product pipelines, share and network with team on best practices {' '}
+                </p>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="cardHover"
+                  aria-label="Open Link Data Structure And Algorithm"
+                  href="https://www.credly.com/badges/a19943ab-3647-40ed-be11-eda491934f94/linked_in_profile"
+                >
+                  SnowPro Advanced: Architect <small>Snowflake</small>
+                </a>
+                <a className="float-right" tabIndex={-1}>
+                  <Date /> <b>2022</b>
+                </a>
+                <p>
+                  2 part specialization achievement - SnowPro Core, Snowpro Advanced: Architect. Learned all tools and resources available
+                  within the Snowflake cloud environment. Using tools daily to sell data on the marketplace, aggregate for reports, or drive a new product pipeline {' '}
                 </p>
               </li>
               <li>
@@ -183,20 +245,16 @@ const About = () => {
                   rel="noopener noreferrer"
                   id="cardHover"
                   aria-label="Open Link Adaptive Leadership"
-                  href="https://www.edx.org/course/adaptive-leadership-in-development"
+                  href="https://www.coursera.org/account/accomplishments/specialization/JFA6BJ292E8Y"
                 >
-                  Adaptive Leadership. <small>edX</small>
+                  Specialization Data Science and Machine Learning <small>John's Hopkins University</small>
                 </a>
                 <a className="float-right" tabIndex={-1}>
-                  <Date /> <b>2019</b>
+                  <Date /> <b>2021</b>
                 </a>
                 <p>
-                  This introductory course helps you identify and make progress
-                  on a leadership challenge in your own life, team, or
-                  community. You’ll apply the tools and techniques of Adaptive
-                  Leadership, a practical framework developed at Harvard Kennedy
-                  School of Government for leading change, particularly during
-                  times of uncertainty or when there are no easy answers.{' '}
+                  5 course Coursera Specialization offered through John's Hopkins University focused on learning best practices for model development, tuning, and evaluation. Learning
+                  the latest methods in the AI / ML field
                 </p>
               </li>
               <li>
@@ -205,30 +263,17 @@ const About = () => {
                   rel="noopener noreferrer"
                   id="cardHover"
                   aria-label="Open Link Learning to Learn [Efficient Learning] "
-                  href="https://www.udemy.com/course/learning-to-learn-efficient-learning-zero-to-mastery/"
+                  href="https://www.coursera.org/account/accomplishments/specialization/CGVHHHDB38P9"
                 >
-                  Learning to Learn [Efficient Learning] <small>udemy</small>
+                  Specialization in Entrepreneurship <small>Pennsylvania University</small>
                 </a>
                 <a className="float-right" tabIndex={-1}>
                   <Date /> <b>2020</b>
                 </a>
                 <p>
-                  Improve memory & productivity using the skills of the world's
-                  top performers and learning strategies proven by research.
+                  5 course Coursera Specialization offered through Pennsylvania University focused on learning best practices leadership, influencing, and seeing a product to the end state. Grew soft 
+                  skills to become a better leader in technology
                 </p>
-              </li>
-              <li>
-                <Link
-                  href="/articles"
-                  aria-label="Check my articles and recent reads"
-                  id="cardHover"
-                >
-                  Learning Something Great 😉
-                </Link>
-                <a className="float-right" tabIndex={-1}>
-                  <Date /> <b>Currently</b>
-                </a>
-                <p>We continue learning everyday. </p>
               </li>
             </ul>
           </article>
@@ -358,19 +403,50 @@ const About = () => {
 
         <PageWrapper aria-label="You are now in lens section">
           <article>
-            <h4>My Photochromic Lens.</h4>
+            <h4>My Person</h4>
             <ul className="timeline">
               <li>
-                <Link href="/lens">
-                  Adenekan's Collection. <small>©Adenekan</small>
+                <Link href="https://www.hendersonhospital.com/">
+                  Volunteer <small>Henderson Hospital</small>
                 </Link>
-                <Link href="/lens" className="float-right" id="cardHover">
+                <Link href="https://www.hendersonhospital.com/" className="float-right" id="cardHover">
                   Visit Page
                 </Link>
                 <p>
-                  This is an intensive, curation of the photochromic lenses that
-                  standout and the ones that i personally love, NOTE this is
-                  just by preference actually.
+                  Weekly vounteer at Henderson Hospital focusing on technology improvement, surgical case flow, as well as patient safety
+                </p>
+              </li>
+              <li>
+                <Link href="https://www.hendersonhospital.com/">
+                  Volunteer <small>Boise State Judo</small>
+                </Link>
+                <Link href="https://www.hendersonhospital.com/" className="float-right" id="cardHover">
+                  Visit Page
+                </Link>
+                <p>
+                  Three times weekly vounteer at Boise State University focusing on improving student success in the Judo Dojo. Being a great uke by being tossed by everyone, everywhere.
+                </p>
+              </li>
+              <li>
+                <Link href="https://sbgidaho.com/judo/">
+                  Athlete <small>SBG Idaho</small>
+                </Link>
+                <Link href="https://sbgidaho.com/judo/" className="float-right" id="cardHover">
+                  Visit Page
+                </Link>
+                <p>
+                  International Judo athlete competing for SBG, Idaho - competing in National events USA, Japan, and Canada
+                </p>
+              </li>
+              <li>
+                <Link href="https://sbgidaho.com/judo/">
+                  Rollerblader <small>Eco Friendly</small>
+                </Link>
+                <Link href="https://sbgidaho.com/judo/" className="float-right" id="cardHover">
+                  Visit Page
+                </Link>
+                <p>
+                  I rollerblade everywhere. I fill up my car's gas tank twice a year. See you from the bike lane!
                 </p>
               </li>
             </ul>

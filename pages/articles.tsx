@@ -18,7 +18,7 @@ const Articles = () => {
     <Layout title="Articles">
       <PageSection>
         <PageWrapper>
-          <h1 className="intro__text">Reads.</h1> <br />
+          <h1 className="intro__text">Writing.</h1> <br />
           <Tabs>
             <TabItems label="All">
               <MansoryLayout>
@@ -37,21 +37,11 @@ const Articles = () => {
                 )}
               </MansoryLayout>
             </TabItems>
-            <TabItems label="Readings">
+            <TabItems label="Publications">
               <MansoryLayout>
                 {articles.map(
                   (item, index) =>
-                    item.type.includes('reading') && (
-                      <MansoryItem key={index} item={item} />
-                    )
-                )}
-              </MansoryLayout>
-            </TabItems>
-            <TabItems label="Videos">
-              <MansoryLayout>
-                {articles.map(
-                  (item, index) =>
-                    item.type.includes('video') && (
+                    item.type.includes('publication') && (
                       <MansoryItem key={index} item={item} />
                     )
                 )}
