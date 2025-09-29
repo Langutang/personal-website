@@ -10,13 +10,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "export": "next export",
-    "deploy": "npm run build && npm run export",
+    "deploy": "npx rimraf .next out && npm run build && gh-pages -d out",
     "lint": "eslint .",
     "fix": "eslint --fix .",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "check-packages": "yarn clean && yarn compile && yarn test && yarn lint"
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
   },
   "dependencies": {
     "codewonders-helpers": "^1.1.0",
@@ -50,6 +47,7 @@
     "husky": "^3.1.0",
     "lint-staged": "^9.5.0",
     "prettier": "1.19.1",
+    "rimraf": "^6.0.1",
     "typescript": "^5.0.4"
   }
 }

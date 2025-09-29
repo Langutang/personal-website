@@ -1,13 +1,9 @@
-// const withPWA = require('next-pwa');
-
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export', // static export
   images: {
-    domains: ['i.ibb.co'],
-  },
-  output: 'standalone',
-  reactStrictMode: false,
-  swcMinify: true,
-  typescript: {
-    tsconfigPath: 'tsconfig.json',
+    unoptimized: true, // needed for static export
   },
 };
+
+module.exports = nextConfig;
