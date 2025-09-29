@@ -40,7 +40,7 @@ const Home = () => {
             </motion.p>
             <motion.p {...getTransitions(0.3)}>
               {' '}
-              <strong>I'm love to bridge my career into a space that blends my professional expertise with a 
+              <strong>I love to bridge my career into a space that blends my professional expertise with a 
               personal passion—robotics and embedded systems. Whether it's firmware development, edge computing, or intelligent automation, 
               I love to apply what I’ve learned in AI and data to the physical world through robotics and hardware innovation. End goal,
               being able to work in robotic prosthesis. Ask me why and it'll bring red wine with a long monologue. </strong>

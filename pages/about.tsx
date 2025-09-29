@@ -56,6 +56,28 @@ const About = () => {
               </li>
               <li>
                 <Link href="https://www.linkedin.com/in/johnvjlang/" aria-label="Open Products Page">
+                  AI Data Architect{' '}
+                  <small>
+                    <Product />
+                  </small>
+                </Link>
+                <Link
+                  href="https://www.linkedin.com/in/johnvjlang/"
+                  aria-label="Open Products Page"
+                  id="cardHover"
+                  className="float-right"
+                >
+                  View LinkedIn
+                </Link>
+                <p>
+                Work comfrotably at petabyte scale, particularly within sensitive and regulated domains like healthcare. Taking a statistical approach to building data pipelines and machine learning model
+                that can improve output, efficiency, as well as cut costs for the organization for replacing vendors. I led a team of 2 engineers in AI/ML being the sole IC for the 
+                company venturing on scietific endeavours for company output.);
+                
+                </p>
+              </li>
+              <li>
+                <Link href="https://www.linkedin.com/in/johnvjlang/" aria-label="Open Products Page">
                   Data Engineering{' '}
                   <small>
                     <Product />
@@ -266,10 +288,28 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   id="cardHover"
+                  aria-label="Open Link Learning to Learn [Efficient Learning] "
+                  href="https://www.coursera.org/account/accomplishments/specialization/CGVHHHDB38P9"
+                >
+                  Strategic Leadership and Management <small>University of Illinois</small>
+                </a>
+                <a className="float-right" tabIndex={-1}>
+                  <Date /> <b>2025</b>
+                </a>
+                <p>
+                  7 course Coursera Specialization offered through University of Illinois focused on learning leadership, designing and organizing the, influencing, and company growth. Grew soft 
+                  skills to become a better leader in technology
+                </p>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="cardHover"
                   aria-label="Open Link Adaptive Leadership"
                   href="https://www.coursera.org/account/accomplishments/specialization/JFA6BJ292E8Y"
                 >
-                  Specialization Data Science and Machine Learning <small>John's Hopkins University</small>
+                  Data Science and Machine Learning <small>John's Hopkins University</small>
                 </a>
                 <a className="float-right" tabIndex={-1}>
                   <Date /> <b>2021</b>
@@ -287,7 +327,7 @@ const About = () => {
                   aria-label="Open Link Learning to Learn [Efficient Learning] "
                   href="https://www.coursera.org/account/accomplishments/specialization/CGVHHHDB38P9"
                 >
-                  Specialization in Entrepreneurship <small>Pennsylvania University</small>
+                  Entrepreneurship <small>Pennsylvania University</small>
                 </a>
                 <a className="float-right" tabIndex={-1}>
                   <Date /> <b>2020</b>
@@ -468,6 +508,17 @@ const About = () => {
                 </Link>
                 <p>
                   I rollerblade everywhere. I fill up my car's gas tank twice a year. See you from the bike lane!
+                </p>
+              </li>
+              <li>
+                <Link href="https://sbgidaho.com/judo/">
+                  Snowboarder <small>Eco Friendly</small>
+                </Link>
+                <Link href="https://sbgidaho.com/judo/" className="float-right" id="cardHover">
+                  Visit Page
+                </Link>
+                <p>
+                  I go for speed. Top is 85.2mph, going for 90mph this year. 
                 </p>
               </li>
             </ul>

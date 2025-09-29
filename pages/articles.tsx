@@ -18,7 +18,7 @@ const Articles = () => {
     <Layout title="Writing.">
       <PageSection>
         <PageWrapper>
-          <h1 className="intro__text">Writing</h1> <br />
+          <h1 className="intro__text">Writing.</h1> <br />
           <Tabs>
             <TabItems label="All">
               <MansoryLayout>

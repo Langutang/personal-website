@@ -78,6 +78,16 @@ const PROJECTS_DATA = [
     technologies: ['Python', 'CM4', 'OpenCV', 'GraphCMS'],
   },
   {
+    title: 'Hugging Face - Contributor',
+    description: 'Model and dataset contributor focusing on robots, deep learning, and computer vision',
+    about:      "Adding to the superfluous ML and AI industry adding sensor data from IoT devices, as well as publishing my own developed models for robotics and computer vision",
+    link:
+      'https://huggingface.co/langutang/',
+    imageUrl: 'https://i.ibb.co/KpPQr4fL/2432343.png',
+     type: ['ai-ml','robotics','open-source'],
+    technologies: ['Python','GPU','TPU','Embedded Engineering'],
+  },
+  {
     title: 'Procedure & Cost Expectation from Skin Image or Chest X-Ray',
     description: 'Give me an image and profile, I will give you cost',
     about:      "Deep Learning into taking a patient profile, location, as well as a medical image to estimate the likely cost of care for likely diagnosis.",
