@@ -1,9 +1,7 @@
-/** @type {import('next').NextConfig} */
+// next.config.js
 const nextConfig = {
-  output: 'export', // static export
-  images: {
-    unoptimized: true, // needed for static export
-  },
+  output: 'export',
+  images: { unoptimized: true },
+  assetPrefix: './', // <-- crucial for static export
 };
-
 module.exports = nextConfig;
