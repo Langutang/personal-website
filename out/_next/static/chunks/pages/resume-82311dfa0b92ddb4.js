@@ -1,0 +1,121 @@
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+  [647],
+  {
+    6032: function(e, n, t) {
+      'use strict';
+      t.r(n), t(7294);
+      var r = t(63),
+        i = t(1664),
+        o = t.n(i),
+        a = t(8039),
+        s = t(1754),
+        c = t(5893),
+        l = t(3454),
+        h = r.ZP.div.withConfig({
+          displayName: 'resume__PageSection',
+          componentId: 'sc-1hmcpgj-0',
+        })([
+          '.intro__text{font-size:var(--font-x-lg);font-weight:900;margin:4rem 0rem 1.5rem;position:relative;}p{font-size:calc(var(--font-sm) + 0.9px);margin-top:0.6rem;line-height:2;font-weight:400;color:var(--article-color) !important;}iframe{width:100%;filter:invert(var(--invert)) grayscale(calc(var(--invert) - 0.15));border:none;height:44.5rem;@media (min-width:768px){width:82.8% !important;height:70.4rem !important;}}',
+        ]);
+      n.default = function() {
+        var e =
+            'https://www.canva.com/design/DAEEkidwA2Q/view?utm_content=DAEEkidwA2Q&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink',
+          n = ''.concat(e.substr(0, e.lastIndexOf('/') + 1), 'view?embed');
+        return (0, c.jsx)(a.Z, {
+          title: 'Resume',
+          children: (0, c.jsxs)(a.F, {
+            children: [
+              (0, c.jsxs)(h, {
+                children: [
+                  (0, c.jsxs)('article', {
+                    children: [
+                      (0, c.jsx)('h1', {
+                        className: 'intro__text',
+                        children: 'Resum\xe9.',
+                      }),
+                      (0, c.jsxs)('p', {
+                        children: [
+                          'Reach out to me via my',
+                          ' ',
+                          (0, c.jsx)('b', {
+                            children: (0, c.jsx)(o(), {
+                              href: '/contact',
+                              children: 'contact page',
+                            }),
+                          }),
+                          ' ',
+                          '.',
+                          ' ',
+                          (0, c.jsx)('b', {
+                            children: (0, c.jsx)('a', {
+                              href: 'https://drive.google.com/file/d/'.concat(
+                                l.env.NEXT_PUBLIC_RESUME_LINK,
+                                '/view?usp=sharing'
+                              ),
+                              target: '_blank',
+                              rel: 'noopener noreferrer',
+                              'aria-label': 'Go to Resum\xe9 Page',
+                              children: 'View',
+                            }),
+                          }),
+                          ' ',
+                          'or',
+                          ' ',
+                          (0, c.jsx)('b', {
+                            children: (0, c.jsx)('a', {
+                              href: 'https://drive.google.com/file/d/'.concat(
+                                l.env.NEXT_PUBLIC_RESUME_LINK,
+                                '/view?usp=sharing'
+                              ),
+                              target: '_blank',
+                              rel: 'noopener noreferrer',
+                              'aria-label': 'Go to Resum\xe9 Page',
+                              children: 'Download',
+                            }),
+                          }),
+                          ' ',
+                          'the resume',
+                          ' ',
+                        ],
+                      }),
+                    ],
+                  }),
+                  (0, c.jsx)('br', {}),
+                  (0, c.jsx)('iframe', {
+                    src: n,
+                    allowFullScreen: !0,
+                    width: '740',
+                    height: '780',
+                    title: 'John Lang Resum\xe9',
+                  }),
+                ],
+              }),
+              (0, c.jsx)('br', {}),
+              (0, c.jsx)('br', {}),
+              (0, c.jsx)(s.Z, {
+                goto: '/contact',
+                className: 'mt-3 mb-5',
+                children: 'Convinced to contact me now ?',
+              }),
+              (0, c.jsx)('br', {}),
+            ],
+          }),
+        });
+      };
+    },
+    2567: function(e, n, t) {
+      (window.__NEXT_P = window.__NEXT_P || []).push([
+        '/resume',
+        function() {
+          return t(6032);
+        },
+      ]);
+    },
+  },
+  function(e) {
+    e.O(0, [148, 989, 774, 888, 179], function() {
+      return e((e.s = 2567));
+    }),
+      (_N_E = e.O());
+  },
+]);
