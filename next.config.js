@@ -1,13 +1,8 @@
-// const withPWA = require('next-pwa');
-
-module.exports = {
-  images: {
-    domains: ['i.ibb.co'],
-  },
-  output: 'standalone',
-  reactStrictMode: false,
-  swcMinify: true,
-  typescript: {
-    tsconfigPath: 'tsconfig.json',
-  },
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export', // static HTML export
+  images: { unoptimized: true }, // disable image optimization (required for export)
+  assetPrefix: './', // crucial for relative paths
 };
+
+module.exports = nextConfig;

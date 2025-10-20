@@ -1,0 +1,591 @@
+'use strict';
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+  [201],
+  {
+    6017: function(e, t, n) {
+      n(7294);
+      var r = n(63),
+        i = n(5893),
+        a = r.ZP.div.withConfig({
+          displayName: 'Mansory__Layout',
+          componentId: 'sc-ly6n2-0',
+        })([
+          'margin:1.5em 0;animation-duration:1s;animation-fill-mode:both;-webkit-animation-duration:1s;animation-name:fadeInUp;-webkit-animation-name:fadeInUp;-webkit-animation-fill-mode:both;max-width:auto;column-gap:1.5em;@media only screen and (min-width:1024px){column-count:2;}@media only screen and (max-width:1023px) and (min-width:768px){column-count:1;}@media only screen and (max-width:767px) and (min-width:540px){column-count:1;}@keyframes fadeInUp{from{margin-top:4rem;opacity:0;}to{margin-top:1.5em;opacity:1;}}@-webkit-keyframes fadeInUp{from{margin-top:4rem;opacity:0;}to{margin-top:1.5em;opacity:1;}}@media (max-width:585px){opacity:1 !important;}@media (max-width:989px){opacity:1 !important;}@media (max-width:220px){opacity:1 !important;}',
+        ]);
+      t.Z = function(e) {
+        var t = e.children;
+        return (0, i.jsx)(a, { children: t });
+      };
+    },
+    1166: function(e, t, n) {
+      n.d(t, {
+        Z: function() {
+          return mansory_item;
+        },
+      });
+      var r = n(7294),
+        i = n(63),
+        a = n(9051),
+        o = n(1163),
+        s = n(5675),
+        c = n.n(s),
+        l = n(5893),
+        Image = function(e) {
+          var t = e.src,
+            n = e.alt,
+            r = e.className;
+          return (0, l.jsx)(c(), {
+            src: t,
+            alt: n || '',
+            id: 'cardHover',
+            className: r,
+            width: 500,
+            height: 500,
+          });
+        };
+      Image.defaultProps = { alt: 'codewonders', className: '' };
+      var d = n(2490),
+        SideBarModal = function(e) {
+          var t = e.show,
+            n = e.closeShow,
+            i = e.size,
+            a = e.overlayColor,
+            o = e.data,
+            s = (0, r.useCallback)(function(e) {
+              'Escape' === e.key && n();
+            }, []);
+          return (
+            (0, r.useEffect)(function() {
+              return (
+                window.addEventListener('keydown', s),
+                function() {
+                  window.removeEventListener('keydown', s);
+                }
+              );
+            }, []),
+            (0, l.jsx)(l.Fragment, {
+              children:
+                t &&
+                o &&
+                (0, l.jsxs)(l.Fragment, {
+                  children: [
+                    (0, l.jsx)(p, {}),
+                    (0, l.jsxs)(m, {
+                      size: i,
+                      'data-testid': 'sidebarmodal',
+                      children: [
+                        (0, l.jsx)(h, {
+                          overlayColor: a,
+                          className: 'overlay',
+                          onClick: function() {
+                            return n();
+                          },
+                        }),
+                        (0, l.jsx)('aside', {
+                          className: 'fadeInLeft',
+                          children: (0, l.jsxs)('div', {
+                            className: 'pos__relative',
+                            children: [
+                              (0, l.jsxs)('div', {
+                                className:
+                                  'd-flex justify-content-between header',
+                                children: [
+                                  (0, l.jsx)('button', {
+                                    onClick: function() {
+                                      return n();
+                                    },
+                                    className: 'none-button',
+                                    type: 'button',
+                                    children: (0, l.jsx)(d.x8, {}),
+                                  }),
+                                  (0, l.jsx)('a', {
+                                    href: '#',
+                                    onClick: function(e) {
+                                      e.preventDefault(), n();
+                                    },
+                                    target: '_blank',
+                                    rel: 'noopener noreferrer',
+                                    children: 'Back To Projects.',
+                                  }),
+                                ],
+                              }),
+                              (0, l.jsxs)('div', {
+                                className: 'main__post',
+                                children: [
+                                  (0, l.jsx)('h3', {
+                                    className: 'mt-4',
+                                    children: o.title,
+                                  }),
+                                  (0, l.jsx)('p', {
+                                    className: 'te mb-4',
+                                    children: o.description,
+                                  }),
+                                  (0, l.jsx)('img', {
+                                    src: o.imageUrl,
+                                    alt: o.title,
+                                  }),
+                                  (0, l.jsx)('h4', { children: 'About' }),
+                                  (0, l.jsx)('p', {
+                                    children: o.about && o.about,
+                                  }),
+                                  (0, l.jsx)('h4', {
+                                    children: 'Technologies',
+                                  }),
+                                  o.technologies &&
+                                    (0, l.jsx)('p', {
+                                      className: 'd-flex flex-wrap',
+                                      children: o.technologies.map(function(
+                                        e,
+                                        t
+                                      ) {
+                                        return (0, l.jsx)(
+                                          'span',
+                                          {
+                                            className: 'd-block mb-1',
+                                            children: e,
+                                          },
+                                          t
+                                        );
+                                      }),
+                                    }),
+                                  (0, l.jsxs)('h4', {
+                                    children: [
+                                      (0, l.jsx)(d.xs, {}),
+                                      ' Website',
+                                    ],
+                                  }),
+                                  (0, l.jsx)('p', {
+                                    children: (0, l.jsx)('a', {
+                                      href: o.link,
+                                      target: '_blank',
+                                      rel: 'noopener noreferrer',
+                                      children: o.link,
+                                    }),
+                                  }),
+                                  o.github &&
+                                    (0, l.jsxs)(l.Fragment, {
+                                      children: [
+                                        (0, l.jsxs)('h4', {
+                                          children: [
+                                            (0, l.jsx)(d.Ey, {}),
+                                            ' Github',
+                                          ],
+                                        }),
+                                        (0, l.jsx)('p', {
+                                          children: (0, l.jsx)('a', {
+                                            href: o.github,
+                                            target: '_blank',
+                                            rel: 'noopener noreferrer',
+                                            children: o.github,
+                                          }),
+                                        }),
+                                      ],
+                                    }),
+                                ],
+                              }),
+                              (0, l.jsxs)('a', {
+                                href: o.link,
+                                className: 'open__project',
+                                target: '_blank',
+                                id: 'cardHover',
+                                rel: 'noopener noreferrer',
+                                children: [
+                                  'Open Project',
+                                  ' ',
+                                  (0, l.jsx)('svg', {
+                                    xmlns: 'http://www.w3.org/2000/svg',
+                                    width: '24',
+                                    height: '24',
+                                    viewBox: '0 0 24 24',
+                                    children: (0, l.jsx)('path', {
+                                      d:
+                                        'M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z',
+                                    }),
+                                  }),
+                                ],
+                              }),
+                            ],
+                          }),
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+            })
+          );
+        },
+        p = (0, i.vJ)(['body{overflow:hidden}']),
+        m = i.ZP.div.withConfig({
+          displayName: 'SidebarModal__Wrapper',
+          componentId: 'sc-1q3nnki-0',
+        })(
+          [
+            '.none-button{border:none;background:transparent;padding-left:0;svg{fill:none !important;}}@keyframes fadeLeft{from{opacity:0.8;transform:translateX(80%);}to{opacity:1;transform:translateX(0%);}}aside{background:var(--bg);',
+            ' @media (max-width:768px){width:100% !important;}height:100%;position:fixed;right:0;top:0;z-index:999999;transition:all 0.3s linear;will-change:opacity,transform;&.fadeInLeft{animation-name:fadeLeft;animation-duration:0.5s;animation-fill-mode:both;}.header{margin-bottom:2rem;padding-bottom:0.8rem;border-bottom:1px solid var(--border-color);svg{}a{font-size:var(--font-sm);font-weight:900;color:var(--sidebar-cta);}}.pos__relative{position:relative;padding:2rem 2rem 4rem;overflow-x:overlay;max-height:100%;}.open__project{background:var(--sidebar-cta);position:fixed;width:100%;left:0;bottom:0;padding:17px;color:#ffffff;font-weight:600;text-align:center;font-size:var(--font-sm);svg{width:16px;vertical-align:bottom;margin-left:6px;fill:#fff;}}}.main__post{h3{font-size:calc(var(--font-x-md) - 6px);color:var(--cw);font-weight:800;}h4{font-size:var(--font-md);color:var(--cw);margin-top:2rem;margin-bottom:0.8rem;svg{vertical-align:bottom;width:15px;margin-right:3px;}}p{color:var(--article-color);font-size:var(--font-sm);span{background:var(--sidebar-tag);padding:6px 13px;border-radius:4px;text-transform:capitalize;font-size:11px;margin-right:6px;color:var(--cw);font-weight:700;}a{font-weight:600;color:var(--sidebar-cta);svg{fill:var(--cw);}}}img{width:100%;height:300px;object-fit:cover;border-radius:11px;}}',
+          ],
+          function(e) {
+            var t;
+            return 'sm' === (t = e.size)
+              ? (0, i.iv)(['width:21.8em;padding:1.5rem;'])
+              : 'lg' === t
+              ? (0, i.iv)(['width:34em;'])
+              : 'md' === t
+              ? (0, i.iv)(['width:29em;padding:2rem;'])
+              : void 0;
+          }
+        ),
+        h = i.ZP.div.withConfig({
+          displayName: 'SidebarModal__Overlay',
+          componentId: 'sc-1q3nnki-1',
+        })(
+          [
+            'z-index:99999;position:fixed;height:100%;width:100%;top:0;right:0;background:',
+            ';',
+          ],
+          function(e) {
+            return e.overlayColor || 'rgba(0, 0, 0, 0.8)';
+          }
+        );
+      SideBarModal.defaultProps = {
+        show: !1,
+        closeShow: function() {},
+        size: 'md',
+        overlayColor: 'rgba(0, 0, 0, 0.8)',
+      };
+      var f = i.ZP.div.withConfig({
+          displayName: 'mansory-item__MansoryItemStyle',
+          componentId: 'sc-pevdi3-0',
+        })([
+          "margin:0 0 1.5em;position:relative;cursor:pointer;border-radius:9px;object-fit:cover;background-color:var(--button-index);background-position:center;background-repeat:no-repeat;overflow:hidden;padding:1.4rem 2rem;display:flex;align-items:flex-end;border-radius:9px;break-inside:avoid;@media (max-width:758px){padding:1.4rem 1rem;}img{width:100% !important;height:100% !important;position:absolute;left:0 !important;top:0 !important;object-fit:cover;}&:before{content:'';pointer-events:none;display:block;position:absolute;top:0px;right:0px;bottom:0px;left:0px;z-index:-1;background:radial-gradient( circle at center center,white 10%,whitesmoke 11%,whitesmoke 100% );}&:after{content:'';pointer-events:none;position:absolute;z-index:1;top:0px;right:0px;bottom:0px;left:0px;opacity:0.3;background:linear-gradient( 180deg,rgba(0,0,0,0.1) 10%,rgb(0 0 0 / 78%) 80% );}&:hover,&:focus{cursor:none;&:after{opacity:1;}div.content__slate{z-index:999;transform:none;opacity:1;}}h3{color:#fff;font-size:var(--font-x-md);font-weight:800;}p{color:#d5d5d5 !important;font-size:calc(var(--font-sm) + 0.9px);span{background:#696869;padding:4px 10px;border-radius:50px;text-transform:capitalize;font-size:11px;margin-right:6px;color:#fff;font-weight:500;}}div.content__slate{opacity:0;transform:translateY(10%);transition:opacity 300ms ease-in-out 0s,transform 300ms ease-in-out 0s;}@media (max-width:585px){&:after{opacity:1 !important;}div.content__slate{z-index:999 !important;transform:none !important;opacity:1 !important;}}@media (max-width:989px){&:after{opacity:1 !important;}div.content__slate{z-index:999 !important;transform:none !important;opacity:1 !important;}}@media (max-width:220px){&:after{opacity:1 !important;}div.content__slate{z-index:999 !important;transform:none !important;opacity:1 !important;}}",
+        ]),
+        mansory_item = function(e) {
+          var t = e.item,
+            n = (0, o.useRouter)().pathname,
+            i = (0, r.useState)(!1),
+            s = i[0],
+            c = i[1],
+            d = (0, r.useState)((0, a.tD)(['400px', '454px', '310px']))[0];
+          return (0, l.jsx)(l.Fragment, {
+            children: n.includes('/projects')
+              ? (0, l.jsxs)(l.Fragment, {
+                  children: [
+                    (0, l.jsxs)(f, {
+                      item: t,
+                      style: { height: d },
+                      role: 'gridcell',
+                      id: 'cardHover',
+                      'aria-label': ''
+                        .concat(t.title, ' ')
+                        .concat(t.description),
+                      onClick: function() {
+                        return c(!0);
+                      },
+                      onKeyPress: function(e) {
+                        if ('Enter' === e.key) return c(!0);
+                      },
+                      tabIndex: 0,
+                      children: [
+                        (0, l.jsx)(Image, { src: t.imageUrl, alt: t.imageUrl }),
+                        (0, l.jsxs)('div', {
+                          className: 'content__slate',
+                          children: [
+                            (0, l.jsx)('h3', { children: t.title }),
+                            (0, l.jsx)('p', { children: t.description }),
+                            t.technologies &&
+                              (0, l.jsx)('p', {
+                                className: 'd-flex flex-wrap',
+                                children: t.technologies.map(function(e, t) {
+                                  return (0,
+                                  l.jsx)('span', { className: 'd-block mb-1', children: e }, t);
+                                }),
+                              }),
+                          ],
+                        }),
+                      ],
+                    }),
+                    (0, l.jsx)(SideBarModal, {
+                      show: s,
+                      closeShow: function() {
+                        return c(!1);
+                      },
+                      size: 'lg',
+                      data: t,
+                    }),
+                  ],
+                })
+              : (0, l.jsx)('a', {
+                  href: t.link,
+                  target: '_blank',
+                  style: {
+                    color: 'inherit',
+                    textDecoration: 'none',
+                    display: 'block',
+                  },
+                  rel: 'noopener noreferrer',
+                  title: t.title,
+                  id: 'cardHover',
+                  'aria-label': ''.concat(t.title, ' ').concat(t.description),
+                  children: (0, l.jsxs)(f, {
+                    item: t,
+                    style: { height: d },
+                    role: 'gridcell',
+                    children: [
+                      (0, l.jsx)(Image, { src: t.imageUrl, alt: t.imageUrl }),
+                      (0, l.jsxs)('div', {
+                        className: 'content__slate',
+                        children: [
+                          (0, l.jsx)('h3', { children: t.title }),
+                          (0, l.jsx)('p', { children: t.description }),
+                        ],
+                      }),
+                    ],
+                  }),
+                }),
+          });
+        };
+    },
+    158: function(e, t, n) {
+      n.d(t, {
+        l: function() {
+          return d;
+        },
+        Z: function() {
+          return components_Tabs;
+        },
+      });
+      var r = n(7294),
+        i = n(63),
+        a = n(9499),
+        o = n(4730),
+        s = n(5893),
+        c = ['activeTab', 'label', 'onClick', 'href'];
+      function ownKeys(e, t) {
+        var n = Object.keys(e);
+        if (Object.getOwnPropertySymbols) {
+          var r = Object.getOwnPropertySymbols(e);
+          t &&
+            (r = r.filter(function(t) {
+              return Object.getOwnPropertyDescriptor(e, t).enumerable;
+            })),
+            n.push.apply(n, r);
+        }
+        return n;
+      }
+      function _objectSpread(e) {
+        for (var t = 1; t < arguments.length; t++) {
+          var n = null != arguments[t] ? arguments[t] : {};
+          t % 2
+            ? ownKeys(Object(n), !0).forEach(function(t) {
+                (0, a.Z)(e, t, n[t]);
+              })
+            : Object.getOwnPropertyDescriptors
+            ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n))
+            : ownKeys(Object(n)).forEach(function(t) {
+                Object.defineProperty(
+                  e,
+                  t,
+                  Object.getOwnPropertyDescriptor(n, t)
+                );
+              });
+        }
+        return e;
+      }
+      var Tabs_Tab = function(e) {
+          var t = e.activeTab,
+            n = e.label,
+            r = e.onClick,
+            i = e.href,
+            a = (0, o.Z)(e, c);
+          return i
+            ? (0, s.jsx)(
+                'a',
+                _objectSpread(
+                  _objectSpread(
+                    {
+                      className: 'tab-list-item '.concat(
+                        t === n ? 'tab-list-active' : ''
+                      ),
+                      href: i,
+                      id: 'cardHover',
+                      target: '_blank',
+                      rel: 'noopener noreferrer',
+                      'aria-label': 'Open '.concat(n),
+                    },
+                    a
+                  ),
+                  {},
+                  { children: n }
+                )
+              )
+            : (0, s.jsx)(s.Fragment, {
+                children: (0, s.jsx)(
+                  'button',
+                  _objectSpread(
+                    _objectSpread(
+                      {
+                        className: 'tab-list-item '.concat(
+                          t === n ? 'tab-list-active' : ''
+                        ),
+                        type: 'button',
+                        id: 'cardHover',
+                        onClick: function() {
+                          return r(n);
+                        },
+                        'aria-label': 'Open '.concat(n),
+                      },
+                      a
+                    ),
+                    {},
+                    { children: n }
+                  )
+                ),
+              });
+        },
+        l = i.ZP.nav.withConfig({
+          displayName: 'Tabs__Wrapper',
+          componentId: 'sc-1xoxigh-0',
+        })([
+          'display:flex;align-items:center;justify-content:center;min-height:43px;@media (max-width:585px){white-space:nowrap;overflow-x:auto;margin:0px auto;}@media (max-width:989px){white-space:nowrap;overflow-x:auto;margin:0px auto;}@media (max-width:220px){white-space:nowrap;overflow-x:auto;margin:0px auto;}.tab-list-item{margin:0 1rem 0 0;font-size:calc(var(--font-sm) + 0.9px);transition:all 0.3s ease;background:transparent;color:var(--article-color);&.tab-list-active{font-weight:900 !important;color:#e8e8e8;background:var(--gray-dark);padding:5px 22px;}}',
+        ]),
+        d = i.ZP.div.withConfig({
+          displayName: 'Tabs__TabItems',
+          componentId: 'sc-1xoxigh-1',
+        })(['display:block;']),
+        components_Tabs = function(e) {
+          var t = e.children,
+            n = r.Children.toArray(t)[0],
+            i = (0, r.useState)(n.props.label),
+            a = i[0],
+            o = i[1],
+            onClickTabItem = function(e) {
+              o(e);
+            };
+          return (0, s.jsxs)(s.Fragment, {
+            children: [
+              (0, s.jsx)(l, {
+                className: 'd-md-flex d-block tabs',
+                role: 'tablist',
+                children:
+                  t &&
+                  r.Children.map(t, function(e) {
+                    var t = e.props,
+                      n = t.label,
+                      r = t.href;
+                    return (0,
+                    s.jsx)(Tabs_Tab, { activeTab: a, label: n, href: r, 'aria-current': a, onClick: onClickTabItem }, n);
+                  }),
+              }),
+              (0, s.jsx)('div', {
+                className: 'tab-content',
+                children: r.Children.map(t, function(e) {
+                  return e.props.label === a && e.props.children;
+                }),
+              }),
+            ],
+          });
+        };
+    },
+    3201: function(e, t, n) {
+      n.r(t),
+        n.d(t, {
+          PageSection: function() {
+            return m;
+          },
+        });
+      var r = n(7294),
+        i = n(63),
+        a = n(8039),
+        o = n(1754),
+        s = n(158),
+        c = n(6017),
+        l = n(1166),
+        d = n(8136),
+        p = n(5893),
+        m = i.ZP.div.withConfig({
+          displayName: 'projects__PageSection',
+          componentId: 'sc-1rs4d83-0',
+        })([
+          '.intro__text{font-size:var(--font-x-lg);font-weight:900;margin:4rem 0rem 1.5rem;position:relative;}button{font-size:calc(var(--font-sm) + 1.5px);background:var(--mark);border:none;border-radius:5px;padding:0px 9px;}',
+        ]);
+      t.default = function() {
+        var e = (0, r.useContext)(d.v5);
+        return (0, p.jsxs)(a.Z, {
+          title: 'Project',
+          children: [
+            (0, p.jsx)(m, {
+              children: (0, p.jsxs)(a.F, {
+                children: [
+                  (0, p.jsx)('h1', {
+                    className: 'intro__text',
+                    children: 'Projects.',
+                  }),
+                  ' ',
+                  (0, p.jsx)('br', {}),
+                  (0, p.jsxs)(s.Z, {
+                    children: [
+                      (0, p.jsx)(s.l, {
+                        label: 'All',
+                        children: (0, p.jsx)(c.Z, {
+                          children: e.map(function(e, t) {
+                            return (0, p.jsx)(l.Z, { item: e }, t);
+                          }),
+                        }),
+                      }),
+                      (0, p.jsx)(s.l, {
+                        label: 'AI and ML',
+                        children: (0, p.jsx)(c.Z, {
+                          children: e.map(function(e, t) {
+                            return (
+                              e.type.includes('ai-ml') &&
+                              (0, p.jsx)(l.Z, { item: e }, t)
+                            );
+                          }),
+                        }),
+                      }),
+                      (0, p.jsx)(s.l, {
+                        label: 'Robotics',
+                        children: (0, p.jsx)(c.Z, {
+                          children: e.map(function(e, t) {
+                            return (
+                              e.type.includes('robotics') &&
+                              (0, p.jsx)(l.Z, { item: e }, t)
+                            );
+                          }),
+                        }),
+                      }),
+                      (0, p.jsx)(s.l, {
+                        label: 'Open Source',
+                        children: (0, p.jsx)(c.Z, {
+                          children: e.map(function(e, t) {
+                            return (
+                              e.type.includes('open-source') &&
+                              (0, p.jsx)(l.Z, { item: e }, t)
+                            );
+                          }),
+                        }),
+                      }),
+                      (0, p.jsx)(s.l, {
+                        label: 'Github',
+                        href: 'https://github.com/Langutang',
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+            }),
+            (0, p.jsxs)(a.F, {
+              children: [
+                (0, p.jsx)(o.Z, {
+                  goto: '/resume',
+                  className: 'mt-3 mb-5',
+                  children: 'Lets Go To My Resume.',
+                }),
+                (0, p.jsx)('br', {}),
+              ],
+            }),
+          ],
+        });
+      };
+    },
+  },
+]);
