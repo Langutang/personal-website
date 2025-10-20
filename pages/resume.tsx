@@ -13,7 +13,7 @@ import FooterLink from '../components/Footer';
 
 const Resume = () => {
   const resumeData =
-    'https://www.canva.com/design/DAEEkidwA2Q/view?utm_content=DAEEkidwA2Q&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink';
+    'https://www.canva.com/design/DAG2WsGjhDs/__76wZJvvuNSOP8wmKMi-Q/edit?utm_content=DAG2WsGjhDs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton';
 
   const previewData = `${resumeData.substr(
     0,
@@ -34,7 +34,7 @@ const Resume = () => {
               .{' '}
               <b>
                 <a
-                  href={`https://drive.google.com/file/d/${process.env.NEXT_PUBLIC_RESUME_LINK}/view?usp=sharing`}
+                  href={`https://drive.google.com/file/d/1zJB3BTdryQAek7X173KSGCeWpAT6fzGo/view`}
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Go to Resumé Page"
@@ -45,7 +45,7 @@ const Resume = () => {
               or{' '}
               <b>
                 <a
-                  href={`https://drive.google.com/file/d/${process.env.NEXT_PUBLIC_RESUME_LINK}/view?usp=sharing`}
+                  href={`https://drive.google.com/file/d/1zJB3BTdryQAek7X173KSGCeWpAT6fzGo/view`}
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Go to Resumé Page"

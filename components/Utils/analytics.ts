@@ -11,7 +11,7 @@ export const initGA = () => {
                 ||----w |
                 ||     || 
                 
-  Hey There i'm glad you liked the site and what to see whats going on, sure check the repo at https://github.com/adenekan41/codewonders 
+  Hey There i'm glad you liked the site and what to see whats going on, sure check the repo at https://github.com/Langutang/personal-website 
   
   And dont forget to shoot me an email at hellocodewonders@gmail.com if you need me to come do awesome work at your company`,
     'font-family:inherit'

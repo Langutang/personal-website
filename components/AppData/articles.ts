@@ -16,7 +16,7 @@ const ARTICLE_DATA = [
     link:
       'https://indd.adobe.com/view/0a26fd44-072d-4b00-8901-4329aed980b6',
     imageUrl:
-      'https://i.ibb.co/2dZ7SPT/Screen-Shot-2019-11-25-at-1-15-37-AM.png',
+      'https://i.ibb.co/tMxd4sTf/LawsAI.png',
     type: ['publication'],
   },
   {
@@ -27,7 +27,7 @@ const ARTICLE_DATA = [
       'https://www.linkedin.com/in/johnvjlang/overlay/1635513550956/single-media-viewer/?profileId=ACoAABqLkj4BBkWBeR8jhTrk69SyO2qigXXVemw',
     imageUrl:
       'https://i.ibb.co/4RCpHTHL/asdasd.png',
-    type: ['article'],
+    type: ['whitepaper'],
   },
   {
     title: 'Operations Research Optimization',

@@ -37,6 +37,16 @@ const Articles = () => {
                 )}
               </MansoryLayout>
             </TabItems>
+            <TabItems label="White Papers">
+              <MansoryLayout>
+                {articles.map(
+                  (item, index) =>
+                    item.type.includes('whitepaper') && (
+                      <MansoryItem key={index} item={item} />
+                    )
+                )}
+              </MansoryLayout>
+            </TabItems>
             <TabItems label="Publications">
               <MansoryLayout>
                 {articles.map(
