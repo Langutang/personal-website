@@ -33,18 +33,11 @@ const MansoryItem: React.FC<MansoryItemProps> = ({ item }) => {
 
   const media = (
     <div className={`item-media item-media--${item.imageDisplay || 'cover'}`}>
-      {(item.imageUrls && item.imageUrls.length > 1
-        ? item.imageUrls
-        : [item.imageUrl]
-      ).map((src, index) => (
+      {[item.imageUrl].map((src) => (
         <Image
           key={src}
           src={src}
-          alt={
-            item.imageUrls && item.imageUrls.length > 1
-              ? `${item.title} project view ${index + 1}`
-              : item.title
-          }
+          alt={item.title}
           className="media-image"
         />
       ))}
@@ -177,21 +170,15 @@ const MansoryItemStyle = styled.div`
 
   .item-media--gallery {
     display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
+    place-items: center;
+    padding: 1.2rem 1.2rem 6.5rem;
   }
 
   .item-media--gallery .media-image {
-    position: relative !important;
+    position: static !important;
     width: 100% !important;
     height: 100% !important;
-    min-width: 0;
-    object-fit: cover;
-    image-rendering: -webkit-optimize-contrast;
-  }
-
-  .item-media--gallery .media-image + .media-image {
-    border-left: 1px solid rgba(255, 255, 255, 0.16);
+    object-fit: contain;
   }
 
   &:before {

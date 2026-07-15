@@ -327,7 +327,8 @@ const Wrapper = styled.div`
     }
     .project-gallery img {
       width: 100%;
-      height: 240px;
+      height: auto;
+      aspect-ratio: 1 / 1;
       object-fit: contain;
       border-radius: 11px;
       image-rendering: -webkit-optimize-contrast;

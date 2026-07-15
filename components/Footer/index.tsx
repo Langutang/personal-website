@@ -9,7 +9,6 @@ import styled from 'styled-components';
 
 import {
   IconRight,
-  Linkedin,
   Medium,
   Rocket,
   HuggingFace,
@@ -41,15 +40,6 @@ const FooterLink: React.FC<IFooterLink &
         </Link>
       </FooterStyle>
       <SocialMedia>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://linkedin.com/in/johnvjlang"
-          aria-label="Go To Lang's Linkedin Page"
-          title="Linkedin Page"
-        >
-          <Linkedin />
-        </a>
         <a
           target="_blank"
           rel="noopener noreferrer"

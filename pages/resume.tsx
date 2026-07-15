@@ -12,13 +12,7 @@ import Layout, { PageWrapper } from '../components/Layout';
 import FooterLink from '../components/Footer';
 
 const Resume = () => {
-  const resumeData =
-    'https://www.canva.com/design/DAG2WsGjhDs/__76wZJvvuNSOP8wmKMi-Q/edit?utm_content=DAG2WsGjhDs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton';
-
-  const previewData = `${resumeData.substr(
-    0,
-    resumeData.lastIndexOf('/') + 1
-  )}view?embed`;
+  const resumeData = '/JLang_Resume.pdf';
 
   return (
     <Layout title="Resume">
@@ -34,7 +28,7 @@ const Resume = () => {
               .{' '}
               <b>
                 <a
-                  href={`https://drive.google.com/file/d/1zJB3BTdryQAek7X173KSGCeWpAT6fzGo/view`}
+                  href={resumeData}
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Go to Resumé Page"
@@ -45,10 +39,9 @@ const Resume = () => {
               or{' '}
               <b>
                 <a
-                  href={`https://drive.google.com/file/d/1zJB3BTdryQAek7X173KSGCeWpAT6fzGo/view`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Go to Resumé Page"
+                  href={resumeData}
+                  download="JLang_Resume.pdf"
+                  aria-label="Download John Lang's resumé"
                 >
                   Download
                 </a>
@@ -58,7 +51,7 @@ const Resume = () => {
           </article>
           <br />
           <iframe
-            src={previewData}
+            src={resumeData}
             allowFullScreen
             width="740"
             height="780"

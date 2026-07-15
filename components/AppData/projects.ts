@@ -2,7 +2,7 @@ const PROJECTS_DATA = [
   {
     title: 'Return of the Mesh',
     description:
-      'Residential plans to reviewed IFC and optimized game-ready homes',
+      'Residential plans to reviewed IFC and FBX based game-ready homes',
     about:
       'A human-in-the-loop system that reads dense plan PDFs, classifies and reconciles millions of native vector primitives, resolves walls, rooms, doors, windows, fixtures, and dimensions, and authors validated IFC4. A deterministic Blender baker then rebuilds clean, dimensionally accurate FBX and glTF assets with game-ready topology, pivots, UVs, naming, instancing, and QA gates. I trained and tested ViT, RT-DETR, VecFormer, RoomFormer, PolyRoom, and Gemini/VLM approaches, learning where a model should propose and where geometry must remain deterministic.',
     link: 'https://github.com/Arcway-ai/return-of-the-mesh',

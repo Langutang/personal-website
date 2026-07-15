@@ -51,46 +51,12 @@ const About = () => {
                   Versatility is the center of how I lead. I can take the latest
                   foundation or vision model—or a specialized Hugging Face model,
                   tool, or dataset—understand its real capability, and adapt it to
-                  the problem a business actually needs solved. I am equally happy
-                  running as a tenacious solo builder or growing an engineering
-                  organization from five people to fifty. In either mode, I focus
-                  teams on the ML and AI applications that let the business learn
-                  quickly, move confidently, and accomplish its goals with ease.
-                </p>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.aiacontracts.com/"
-                  aria-label="Open AIA Contract Documents"
-                >
-                  AIA Contract Documents{' '}
-                  <small>Las Vegas, NV</small>{' '}
-                  <small>
-                    <Product />
-                  </small>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/Langutang"
-                  aria-label="Open John Lang's GitHub profile"
-                  id="cardHover"
-                  className="float-right"
-                >
-                  View GitHub
-                </a>
-                <p>
-                  I built the first chat-based model for AIA Contract Documents,
-                  a legal-risk engine that evaluates a user&apos;s contract exposure,
-                  and MCP tools that make internal data easier for teammates to
-                  understand and use. I grew the AI function from just me to a
-                  team of seven; introduced Foundry models for chat and document
-                  understanding, Hugging Face models for prompt-injection tuning,
-                  and vector databases for contract intelligence; established
-                  Copilot-assisted architecture review; and led an
-                  initiative-wide AI development lifecycle structure.
+                  the problem a business actually needs solved. I have worked with
+                  and led teams ranging from seven to nearly fifty people, building
+                  the ML and AI applications that help organizations learn quickly,
+                  move confidently, and accomplish their goals with ease. I can
+                  grow and align a department when the work demands it, but I still
+                  prefer the focus, ownership, and building velocity of working solo.
                 </p>
               </li>
               <li>
@@ -110,12 +76,15 @@ const About = () => {
                 </Link>
                 <p>
                   I turn model capability into dependable products. That can mean
-                  evaluating frontier and open-source models, reshaping a Hugging
-                  Face dataset for a narrow domain, building retrieval and agent
-                  tools, or designing the evaluation, security, and observability
-                  needed to ship safely. I am comfortable at petabyte scale and
-                  in regulated environments, but the goal is always practical:
-                  give people a faster, smarter way to do important work.
+                  evaluating frontier and open-source models, using Roboflow, or
+                  reshaping a Hugging Face dataset for a narrow domain. I have built
+                  my own applications to label, format, train, and validate data so
+                  every model receives the inputs it actually needs. I also enjoy
+                  finding new value in existing research data—for example,
+                  repurposing Structured3D for computer-vision problems beyond its
+                  original use case. Whether I am building retrieval and agent tools
+                  or the evaluation, security, and observability needed to ship them,
+                  the goal is practical: give people a faster, smarter way to work.
                 </p>
               </li>
 
@@ -198,7 +167,7 @@ const About = () => {
                 </Link>
                 <p>
                   I am building two connected systems: Return of the Mesh turns
-                  residential plans into reviewed IFC and game-ready homes, while
+                  residential plans into reviewed IFC and FBX based game-ready homes, while
                   Holoprojector turns real fixtures and furniture into accurate
                   GLBs. Across them I have trained and evaluated models over more
                   than a million vector primitives, including ViT, RT-DETR,
@@ -402,24 +371,23 @@ const About = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Open Codewonders Spotify Playlist"
-                  href="https://open.spotify.com/playlist/2EH5NURI9OzRsMOFOGL70V"
+                  aria-label="Open Butter Express Spotify Playlist"
+                  href="https://open.spotify.com/playlist/5ivfjRIoFGCZ9cUn6O0w5r?si=bLlxDjPpQI6tIcHvu5js6w&utm_source=copy-link&pi=h0SlNBrWQRyNd"
                 >
-                  Codewonders. <small>Spotify</small>
+                  Butter Express <small>Spotify</small>
                 </a>
                 <a
                   target="_blank"
                   id="cardHover"
                   rel="noopener noreferrer"
-                  aria-label="Open Lofii Playlist"
-                  href="https://open.spotify.com/playlist/2EH5NURI9OzRsMOFOGL70V"
+                  aria-label="Open Butter Express Spotify Playlist"
+                  href="https://open.spotify.com/playlist/5ivfjRIoFGCZ9cUn6O0w5r?si=bLlxDjPpQI6tIcHvu5js6w&utm_source=copy-link&pi=h0SlNBrWQRyNd"
                   className="float-right"
                 >
                   View Playlist
                 </a>
                 <p>
-                  This is an intensive, energizing songs list that helps me
-                  through the day and inspires generate breakthrough ideas.
+                  This is what I play when I am snowboarding.
                 </p>
               </li>
               <li>
@@ -450,43 +418,43 @@ const About = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Open Link"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DWUACcBjzMiIY?si=KbZW7Cz1TpaABPXV_fH4-A"
+                  aria-label="Open Desert Morning Spotify Playlist"
+                  href="https://open.spotify.com/playlist/6tRNrUGwRMDf0BMivVRE2T?si=E-liomNlQReYOIVvzgcRXQ&utm_source=copy-link&pi=-D1aw8eMRrCG5"
                 >
-                  Mellow Drive <small>Spotify</small>
+                  Desert Morning <small>Spotify</small>
                 </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Open Link"
+                  aria-label="Open Desert Morning Spotify Playlist"
                   id="cardHover"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DWUACcBjzMiIY?si=KbZW7Cz1TpaABPXV_fH4-A"
+                  href="https://open.spotify.com/playlist/6tRNrUGwRMDf0BMivVRE2T?si=E-liomNlQReYOIVvzgcRXQ&utm_source=copy-link&pi=-D1aw8eMRrCG5"
                   className="float-right"
                 >
                   View Playlist
                 </a>
-                <p>Easy listening for pleasant drive</p>
+                <p>A relaxing morning strum to have a coffee with.</p>
               </li>
               <li>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Open Link"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX6PKX5dyBKeq?si=jRd8iiIER260sRzE6ZV44g"
+                  aria-label="Open The Backroad Spotify Playlist"
+                  href="https://open.spotify.com/playlist/707gPfCJFymfv8Xstl98mw?si=AacbhAQZTZm-dJDY24nT8Q&utm_source=copy-link&pi=dBsvlF9RQXi5M"
                 >
-                  Rap UK <small>Spotify</small>
+                  The Backroad <small>Spotify</small>
                 </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Open Link"
+                  aria-label="Open The Backroad Spotify Playlist"
                   id="cardHover"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX6PKX5dyBKeq?si=jRd8iiIER260sRzE6ZV44g"
+                  href="https://open.spotify.com/playlist/707gPfCJFymfv8Xstl98mw?si=AacbhAQZTZm-dJDY24nT8Q&utm_source=copy-link&pi=dBsvlF9RQXi5M"
                   className="float-right"
                 >
                   View Playlist
                 </a>
-                <p>One of the finest rap in UK. Cover: Aitch</p>
+                <p>A little roots-country playlist.</p>
               </li>
               <li>
                 <a
