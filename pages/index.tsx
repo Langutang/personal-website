@@ -32,35 +32,45 @@ const Home = () => {
             </motion.h1>
             <motion.p {...getTransitions(0.3)}>
               {' '}
-              Your friendly neighborhood distributed engineer, outdoor adventurist, and survivalist. 
-              I spend my days (and nights) adventuring in the embedded and machine learning industry often in my garage.
-              I've been developing software for over eight years, with the last three focused on leading engineering teams across data science, 
-              machine learning, and data engineering. From building predictive models and autonomous pipelines to 
-              architecting large-scale data systems, my work has spanned the full data lifecycle.
+              Your friendly neighborhood builder, outdoor adventurist, and
+              survivalist. I have spent more than eight years shipping software,
+              moving from enterprise AI systems and engineering leadership to
+              the work I have always wanted to do: games, robotics, and software
+              that comes alive in the physical and digital worlds.
             </motion.p>
             <motion.p {...getTransitions(0.3)}>
               {' '}
-              <strong>I love to bridge my career into a space that blends my professional expertise with a 
-              personal passion—robotics and embedded systems. Whether it's firmware development, edge computing, or intelligent automation, 
-              I love to apply what I’ve learned in AI and data to the physical world through robotics and hardware innovation. End goal,
-              being able to work in robotic prosthesis. Ask me why and it'll bring red wine with a long monologue. </strong>
+              <strong>
+                I love taking the newest AI and machine-learning models, build
+                tools, and automation patterns and using them to make things
+                faster and smarter. In game design, that means using Blender and
+                Unreal Engine MCP to turn plans and product references into
+                dimensionally accurate, game-ready worlds—then optimizing
+                topology, UVs, collisions, instancing, and runtime performance so
+                the digital world feels alive without slowing down.
+              </strong>
             </motion.p>
             <motion.p {...getTransitions(0.3)}>
               {' '}
-              Venture over to my  {' '}
+              I still love embedded work just as much. I have built drones,
+              autonomous machines, edge-computing cameras, and a pet robot that
+              can see, follow, and converse. Venture over to my{' '}
               <Link href="/projects" aria-label="Go to Projects Page">
                 Projects
               </Link>{' '}
-              to see the latest edge computing, robotics, or machine learning application I have put together.{' '}
+              to see the latest game-design, robotics, embedded, and machine-learning
+              systems I have put together.{' '}
             </motion.p>
             <motion.p {...getTransitions(0.5)}>
               Bona fide{' '}
               <Link href="/articles" aria-label="Check out my Lens">
                 Research
               </Link>{' '}
-              enthusiast. If there is a problem that can be solved through statistics, technology, or autonomous machines, I&apos;ve got it covered. I have spent my whole career in machine learning and 
-              data engineering. Data and its interpretation are my closest acquaintance. I am looking to apply my skills to expedite robotic automation and decision process.
-              If you are looking for an experienced engineer to build your next machine, {' '}
+              enthusiast. If a problem can be solved with statistics, intelligent
+              software, optimized geometry, or an autonomous machine, I want to
+              build it. The end goal is still robotic prosthetics—and that story
+              comes with red wine and a long monologue. If you are looking for an
+              experienced engineer to bring your next machine or digital world to life,{' '}
               <Link href="/contact" aria-label="Go to Contact Page">
                 Contact Me
               </Link>

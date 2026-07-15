@@ -39,6 +39,16 @@ const Projects = () => {
                 )}
               </MansoryLayout>
             </TabItems>
+            <TabItems label="Game Design">
+              <MansoryLayout>
+                {projectsData.map(
+                  (item, index) =>
+                    item.type.includes('game-design') && (
+                      <MansoryItem key={index} item={item} />
+                    )
+                )}
+              </MansoryLayout>
+            </TabItems>
             <TabItems label="Robotics">
               <MansoryLayout>
                 {projectsData.map(

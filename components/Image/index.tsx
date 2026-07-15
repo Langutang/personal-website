@@ -23,8 +23,9 @@ const Image: React.FC<IImage> = ({ src, alt, className }) => (
     alt={alt || ''}
     id="cardHover"
     className={className}
-    width={500}
-    height={500}
+    width={1200}
+    height={900}
+    sizes="(max-width: 767px) 100vw, (max-width: 1023px) 83vw, 42vw"
   />
 );
 

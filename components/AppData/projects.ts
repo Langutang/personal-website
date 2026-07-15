@@ -1,5 +1,79 @@
 const PROJECTS_DATA = [
   {
+    title: 'Return of the Mesh',
+    description:
+      'Residential plans to reviewed IFC and optimized game-ready homes',
+    about:
+      'A human-in-the-loop system that reads dense plan PDFs, classifies and reconciles millions of native vector primitives, resolves walls, rooms, doors, windows, fixtures, and dimensions, and authors validated IFC4. A deterministic Blender baker then rebuilds clean, dimensionally accurate FBX and glTF assets with game-ready topology, pivots, UVs, naming, instancing, and QA gates. I trained and tested ViT, RT-DETR, VecFormer, RoomFormer, PolyRoom, and Gemini/VLM approaches, learning where a model should propose and where geometry must remain deterministic.',
+    link: 'https://github.com/Arcway-ai/return-of-the-mesh',
+    github: 'https://github.com/Arcway-ai/return-of-the-mesh',
+    imageUrl: '/media/projects/return-of-the-mesh-house.png',
+    imageUrls: [
+      '/media/projects/return-of-the-mesh-house.png',
+      '/media/projects/return-of-the-mesh-fixtures.png',
+    ],
+    imageDisplay: 'gallery',
+    type: ['ai-ml', 'game-design'],
+    technologies: [
+      'Python',
+      'VecFormer',
+      'RT-DETR',
+      'Gemini',
+      'IFC4',
+      'Blender',
+      'Unreal Engine',
+    ],
+  },
+  {
+    title: 'Holoprojector Model Bake-Off',
+    description:
+      'Furniture and fixtures generated, normalized, and ranked across leading image-to-3D models',
+    about:
+      'A model bake-off for real retail furniture and fixtures. The same reference image and product dimensions are routed through TRELLIS.2, Rodin Gen-2.5, Meshy 6, Tripo 3.1, or a parametric Blender build. Each GLB is cleaned only when necessary, rescaled to the real specification, re-pivoted at floor-bottom-center, imported into Unreal, and visually scored against the source. The tests showed that no single model wins every category: Rodin can lead on finish and silhouette, TRELLIS.2 can preserve rich PBR detail, Meshy is useful for rapid volume, and parametric geometry remains best for exact rectilinear products.',
+    link: 'https://github.com/Arcway-ai/holoprojector',
+    github: 'https://github.com/Arcway-ai/holoprojector',
+    imageUrl: '/media/projects/holoprojector-rodin-chair.png',
+    imageUrls: [
+      '/media/projects/holoprojector-trellis-chair.png',
+      '/media/projects/holoprojector-rodin-chair.png',
+      '/media/projects/holoprojector-meshy-chair.png',
+    ],
+    imageDisplay: 'gallery',
+    type: ['ai-ml', 'game-design'],
+    technologies: [
+      'TRELLIS.2',
+      'Rodin Gen-2.5',
+      'Meshy 6',
+      'Tripo 3.1',
+      'GLB',
+      'PBR',
+    ],
+  },
+  {
+    title: 'Unreal MCP Game-Ready Pipeline',
+    description:
+      'Fast, accurate placement and runtime validation for generated 3D assets',
+    about:
+      'An Unreal Engine 5.8 MCP toolset that turns generated GLBs into trustworthy game assets. It imports and places meshes, verifies centimeter-scale dimensions and floor pivots, enables Nanite where appropriate, configures collision, reports triangles and UVs, captures consistent QA views, and hot-reloads cleanup tools without restarting the editor. The goal is to add life to a digital world quickly while keeping geometry, memory, collision, and rendering costs under control.',
+    link: 'https://github.com/Arcway-ai/holoprojector',
+    github: 'https://github.com/Arcway-ai/holoprojector',
+    imageUrl: '/media/projects/unreal-mcp-game-ready.png',
+    imageUrls: [
+      '/media/projects/unreal-mcp-game-ready.png',
+      '/media/projects/holoprojector-pipeline.png',
+    ],
+    imageDisplay: 'gallery',
+    type: ['ai-ml', 'game-design'],
+    technologies: [
+      'Unreal Engine 5.8',
+      'MCP',
+      'Nanite',
+      'Blender',
+      'Trimesh',
+      'QA Automation',
+    ],
+  },
+  {
     title: 'Rocket PSA',
     description: 'Cloud based AI, CRM tool built at scale and efficiency',
     about:
@@ -8,6 +82,7 @@ const PROJECTS_DATA = [
     imageUrl: 'https://i.ibb.co/WNL1KxSQ/fileupload.png',
     github: 'https://rocket-command.com',
     type: ['ai-ml'],
+    imageDisplay: 'thumbnail',
     technologies: ['Python', 'Django','NextJS', 'Cloud GPU and Filesystem', 'AI / ML Agent'],
   },
   {
@@ -19,6 +94,7 @@ const PROJECTS_DATA = [
     github: 'https://github.com/adenekan41/scoutbar',
     imageUrl: 'https://i.ibb.co/MkNCHLs0/IMG-0377-1.jpg',
     type: ['ai-ml', 'robotics'],
+    imageDisplay: 'thumbnail',
     technologies: ['Python', 'Coral TPU', 'ChatGPT'],
   },
   {
@@ -30,6 +106,7 @@ const PROJECTS_DATA = [
     link: 'https://shoprrr.netlify.com',
     imageUrl: 'https://i.ibb.co/WpcG5bVZ/IMG-2734.jpg',
     type: ['ai-ml', 'robotics'],
+    imageDisplay: 'thumbnail',
     technologies: ['Python', 'Raspberry Pi', 'PIR Sensor', 'APIs'],
   },
     {
@@ -42,6 +119,7 @@ const PROJECTS_DATA = [
     imageUrl:
       'https://i.ibb.co/Nd6vFLrR/P2120607.jpg',
     type: ['ai-ml', 'robotics'],
+    imageDisplay: 'thumbnail',
     technologies: ['Python', 'Muli TPU', 'Raspberry Pi', 'Object Detection'],
   },
   {
@@ -53,6 +131,7 @@ const PROJECTS_DATA = [
     imageUrl:
       'https://i.ibb.co/4Z0py7pP/1-f-ZT8f-Z5-EGJq-M6-J0c392-Wg.webp',
     type: ['ai-ml'],
+    imageDisplay: 'thumbnail',
     technologies: ['Python', 'ai-ml'],
   },
   {
@@ -65,16 +144,19 @@ const PROJECTS_DATA = [
       'https://chrome.google.com/webstore/detail/piggment-crafted-to-inspi/eifkhhlfjplpakoddkndkgjhfajnhffg',
     imageUrl: 'https://i.ibb.co/CpWJ1WVF/IMG-5811.jpg',
     type: ['ai-ml', 'robotics'],
+    imageDisplay: 'thumbnail',
     technologies: ['Python', 'Coral TPU', 'Databricks', 'Raspberry Pi'],
   },
   {
     title: 'XGo Lite Robot Dog',
-    description: 'Deep Learning into a Quadreuped Robot',
-    about:      "",
+    description: 'Deep learning for a quadruped robot',
+    about:
+      'A quadruped pet robot that combines motion control, computer vision, object tracking, and conversational AI in an embedded CM4 platform.',
     link:
       'https://magic.link',
-    imageUrl: 'https://i.ibb.co/GQ056767/Capture3.png"',
+    imageUrl: 'https://i.ibb.co/GQ056767/Capture3.png',
      type: ['ai-ml', 'robotics'],
+    imageDisplay: 'cover',
     technologies: ['Python', 'CM4', 'OpenCV', 'GraphCMS'],
   },
   {
@@ -85,6 +167,7 @@ const PROJECTS_DATA = [
       'https://huggingface.co/langutang/',
     imageUrl: 'https://i.ibb.co/KpPQr4fL/2432343.png',
      type: ['ai-ml','robotics','open-source'],
+    imageDisplay: 'thumbnail',
     technologies: ['Python','GPU','TPU','Embedded Engineering'],
   },
   {
@@ -95,6 +178,7 @@ const PROJECTS_DATA = [
       'https://github.com/jordanholbrook/CV_Med',
     imageUrl: 'https://i.ibb.co/pvzC3R05/32234234.png',
      type: ['ai-ml'],
+    imageDisplay: 'thumbnail',
     technologies: ['Python', 'Django', 'MLFlow', 'Databricks'],
   },
   {
@@ -105,6 +189,7 @@ const PROJECTS_DATA = [
       'https://www.voquo.io/',
     imageUrl: 'https://i.ibb.co/rDW5Zcz/23d23.png',
      type: ['open-source'],
+    imageDisplay: 'thumbnail',
     technologies: ['Python', 'Django', 'Snowflake', 'Databricks', 'scipy'],
   },
   {
@@ -115,6 +200,7 @@ const PROJECTS_DATA = [
       'https://www.voquo.io/',
     imageUrl: 'https://i.ibb.co/Kzsjy1sY/68747470733a2f2f692e6962622e636f2f774a524832776e2f686f6d652e706e67.png',
      type: ['open-source'],
+    imageDisplay: 'thumbnail',
     technologies: ['Python', 'Django', 'Snowflake', 'Databricks', 'scipy'],
   },
   {
@@ -125,6 +211,7 @@ const PROJECTS_DATA = [
       'https://greatexpectations.io/expectations/',
     imageUrl: 'https://i.ibb.co/W42kH7PW/qwef.png',
      type: ['open-source'],
+    imageDisplay: 'thumbnail',
     technologies: ['Python'],
   },
 ];

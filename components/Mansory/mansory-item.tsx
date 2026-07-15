@@ -3,7 +3,6 @@
 /* -------------------------------------------------------------------------- */
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import { arrayRandomItem } from 'codewonders-helpers';
 import { useRouter, withRouter } from 'next/router';
 /* -------------------------- Internal Dependencies ------------------------- */
 import Image from '../Image';
@@ -19,13 +18,38 @@ interface MansoryItemProps {
     github?: string;
     about?: string;
     technologies?: string[];
+    imageUrls?: string[];
+    imageDisplay?: string;
   };
 }
 const MansoryItem: React.FC<MansoryItemProps> = ({ item }) => {
   const router = useRouter();
   const { pathname } = router;
   const [show, setShow] = useState(false);
-  const [height] = useState(arrayRandomItem(['400px', '454px', '310px']));
+  const heights = ['400px', '454px', '340px'];
+  const height = item.imageDisplay === 'gallery'
+    ? '454px'
+    : heights[item.title.length % heights.length];
+
+  const media = (
+    <div className={`item-media item-media--${item.imageDisplay || 'cover'}`}>
+      {(item.imageUrls && item.imageUrls.length > 1
+        ? item.imageUrls
+        : [item.imageUrl]
+      ).map((src, index) => (
+        <Image
+          key={src}
+          src={src}
+          alt={
+            item.imageUrls && item.imageUrls.length > 1
+              ? `${item.title} project view ${index + 1}`
+              : item.title
+          }
+          className="media-image"
+        />
+      ))}
+    </div>
+  );
 
   return (
     <>
@@ -46,7 +70,7 @@ const MansoryItem: React.FC<MansoryItemProps> = ({ item }) => {
             }}
             role="gridcell"
           >
-            <Image src={item.imageUrl} alt={item.imageUrl} />
+            {media}
             <div className="content__slate">
               <h3>{item.title}</h3>
               <p>{item.description}</p>
@@ -69,7 +93,7 @@ const MansoryItem: React.FC<MansoryItemProps> = ({ item }) => {
             }}
             tabIndex={0}
           >
-            <Image src={item.imageUrl} alt={item.imageUrl} />
+            {media}
             <div className="content__slate">
               <h3>{item.title}</h3>
               <p>{item.description}</p>
@@ -118,13 +142,56 @@ const MansoryItemStyle = styled.div`
     padding: 1.4rem 1rem;
   }
 
-  img {
+  .item-media {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    overflow: hidden;
+    background:
+      radial-gradient(circle at 50% 38%, rgba(112, 128, 144, 0.28), transparent 56%),
+      #10151b;
+  }
+
+  .item-media--cover .media-image {
     width: 100% !important;
     height: 100% !important;
-    position: absolute;
-    left: 0 !important;
-    top: 0 !important;
     object-fit: cover;
+  }
+
+  .item-media--thumbnail {
+    display: grid;
+    place-items: center;
+    padding: 2rem 2rem 7rem;
+  }
+
+  .item-media--thumbnail .media-image {
+    position: static !important;
+    width: 180px !important;
+    height: 180px !important;
+    max-width: 72%;
+    max-height: 72%;
+    object-fit: contain;
+    image-rendering: -webkit-optimize-contrast;
+    filter: contrast(1.05) saturate(1.04);
+  }
+
+  .item-media--gallery {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+
+  .item-media--gallery .media-image {
+    position: relative !important;
+    width: 100% !important;
+    height: 100% !important;
+    min-width: 0;
+    object-fit: cover;
+    image-rendering: -webkit-optimize-contrast;
+  }
+
+  .item-media--gallery .media-image + .media-image {
+    border-left: 1px solid rgba(255, 255, 255, 0.16);
   }
 
   &:before {
@@ -202,6 +269,8 @@ const MansoryItemStyle = styled.div`
   }
 
   div.content__slate {
+    position: relative;
+    z-index: 2;
     opacity: 0;
     transform: translateY(10%);
     transition: opacity 300ms ease-in-out 0s, transform 300ms ease-in-out 0s;

@@ -29,8 +29,8 @@ const About = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Open LinkedIn Link"
-                  href="https://www.linkedin.com/in/johnvjlang/"
+                  aria-label="Open John Lang's GitHub profile"
+                  href="https://github.com/Langutang"
                 >
                   Leadership{' '}
                   <small>
@@ -40,63 +40,82 @@ const About = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Open LinkedIn Link"
+                  aria-label="Open John Lang's GitHub profile"
                   id="cardHover"
-                  href="https://www.linkedin.com/in/johnvjlang/"
+                  href="https://github.com/Langutang"
                   className="float-right"
                 >
-                  View LinkedIn
+                  View GitHub
                 </a>
                 <p>
-                As a Data Engineering and Science Manager, I lead a high-performing team of six engineers and data scientists, driving innovation across complex data domains. 
-                My leadership journey has evolved into a strategic architecture role, where I guide companies on unifying data engineering methodologies and implementing 
-                robust MLOps practices. From building internal systems that scale across teams to architecting MLFlow pipelines for model governance and reproducibility, 
-                I bridge the gap between business goals and technical execution with a sharp focus on velocity, reliability, and long-term impact.
+                  Versatility is the center of how I lead. I can take the latest
+                  foundation or vision model—or a specialized Hugging Face model,
+                  tool, or dataset—understand its real capability, and adapt it to
+                  the problem a business actually needs solved. I am equally happy
+                  running as a tenacious solo builder or growing an engineering
+                  organization from five people to fifty. In either mode, I focus
+                  teams on the ML and AI applications that let the business learn
+                  quickly, move confidently, and accomplish its goals with ease.
                 </p>
               </li>
               <li>
-                <Link href="https://www.linkedin.com/in/johnvjlang/" aria-label="Open Products Page">
-                  AI Data Architect{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.aiacontracts.com/"
+                  aria-label="Open AIA Contract Documents"
+                >
+                  AIA Contract Documents{' '}
+                  <small>Las Vegas, NV</small>{' '}
+                  <small>
+                    <Product />
+                  </small>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/Langutang"
+                  aria-label="Open John Lang's GitHub profile"
+                  id="cardHover"
+                  className="float-right"
+                >
+                  View GitHub
+                </a>
+                <p>
+                  I built the first chat-based model for AIA Contract Documents,
+                  a legal-risk engine that evaluates a user&apos;s contract exposure,
+                  and MCP tools that make internal data easier for teammates to
+                  understand and use. I grew the AI function from just me to a
+                  team of seven; introduced Foundry models for chat and document
+                  understanding, Hugging Face models for prompt-injection tuning,
+                  and vector databases for contract intelligence; established
+                  Copilot-assisted architecture review; and led an
+                  initiative-wide AI development lifecycle structure.
+                </p>
+              </li>
+              <li>
+                <Link href="https://github.com/Langutang" aria-label="Open John Lang's GitHub profile">
+                  Applied AI Architecture{' '}
                   <small>
                     <Product />
                   </small>
                 </Link>
                 <Link
-                  href="https://www.linkedin.com/in/johnvjlang/"
-                  aria-label="Open Products Page"
+                  href="https://github.com/Langutang"
+                  aria-label="Open John Lang's GitHub profile"
                   id="cardHover"
                   className="float-right"
                 >
-                  View LinkedIn
+                  View GitHub
                 </Link>
                 <p>
-                Work comfrotably at petabyte scale, particularly within sensitive and regulated domains like healthcare. Taking a statistical approach to building data pipelines and machine learning model
-                that can improve output, efficiency, as well as cut costs for the organization for replacing vendors. I led a team of 2 engineers in AI/ML being the sole IC for the 
-                company venturing on scietific endeavours for company output.);
-                
-                </p>
-              </li>
-              <li>
-                <Link href="https://www.linkedin.com/in/johnvjlang/" aria-label="Open Products Page">
-                  Data Engineering{' '}
-                  <small>
-                    <Product />
-                  </small>
-                </Link>
-                <Link
-                  href="https://www.linkedin.com/in/johnvjlang/"
-                  aria-label="Open Products Page"
-                  id="cardHover"
-                  className="float-right"
-                >
-                  View LinkedIn
-                </Link>
-                <p>
-                I work comfortably at petabyte scale, particularly within sensitive and regulated domains like healthcare. 
-                I specialize in owning end-to-end data ecosystems—aggregating, cleaning, and transforming vast datasets into actionable systems 
-                such as automated reporting platforms, real-time notification engines, and user-facing products. Whether it's streaming architecture, 
-                lakehouse design, or complex ETL orchestration, I bring both the technical and product sense needed to turn raw data into business value for 
-                internal stakeholders and external clients alike.
+                  I turn model capability into dependable products. That can mean
+                  evaluating frontier and open-source models, reshaping a Hugging
+                  Face dataset for a narrow domain, building retrieval and agent
+                  tools, or designing the evaluation, security, and observability
+                  needed to ship safely. I am comfortable at petabyte scale and
+                  in regulated environments, but the goal is always practical:
+                  give people a faster, smarter way to do important work.
                 </p>
               </li>
 
@@ -104,10 +123,10 @@ const About = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Open Design Link"
-                  href="https://www.linkedin.com/in/johnvjlang/"
+                  aria-label="Open John Lang's GitHub profile"
+                  href="https://github.com/Langutang"
                 >
-                  Data Science{' '}
+                  Machine Learning Application{' '}
                   <small>
                     <Rocket />
                   </small>
@@ -115,19 +134,20 @@ const About = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Open Design Link"
+                  aria-label="Open John Lang's GitHub profile"
                   id="cardHover"
-                  href="https://www.linkedin.com/in/johnvjlang/"
+                  href="https://github.com/Langutang"
                   className="float-right"
                 >
-                  View LinkedIn
+                  View GitHub
                 </a>
                 <p>
-                From predicting the most cost-effective healthcare plans to building insurance pricing models for e-commerce platforms, 
-                I’ve developed and deployed machine learning solutions that move the needle. I’ve built everything from production-grade 
-                facial recognition filters to recommendation systems and autonomous retraining pipelines. I’m equally at home with 
-                classical models and cutting-edge deep learning, and I thrive in cross-functional environments where experimentation, 
-                iteration, and ownership are key.
+                  I have applied ML to healthcare pricing, document intelligence,
+                  recommendation systems, computer vision, legal risk, and
+                  autonomous retraining. I enjoy the stubborn middle of the work:
+                  testing models against real failure cases, tuning them to the
+                  domain, measuring what changed, and staying with the problem
+                  until the result is useful—not merely impressive in a demo.
                 </p>
               </li>
 
@@ -159,6 +179,37 @@ const About = () => {
                 systems across a Coral TPU, I love pushing the boundaries of what’s possible at the edge. I’ve built virtual assistants using ChatGPT, 
                 and even created a networked edge-computing camera that scans physical invoices and transfers digital records across systems. 
                 It’s hands-on, systems-level engineering that reminds me why I started building in the first place.
+                </p>
+              </li>
+              <li>
+                <Link href="/projects" aria-label="Open game design projects">
+                  Game-Ready Design{' '}
+                  <small>
+                    <Rocket />
+                  </small>
+                </Link>
+                <Link
+                  href="/projects"
+                  aria-label="Open game design projects"
+                  id="cardHover"
+                  className="float-right"
+                >
+                  View Projects
+                </Link>
+                <p>
+                  I am building two connected systems: Return of the Mesh turns
+                  residential plans into reviewed IFC and game-ready homes, while
+                  Holoprojector turns real fixtures and furniture into accurate
+                  GLBs. Across them I have trained and evaluated models over more
+                  than a million vector primitives, including ViT, RT-DETR,
+                  VecFormer, RoomFormer, PolyRoom, and Gemini-based geometry
+                  reconciliation, then compared image-to-3D output from
+                  TRELLIS.2, Rodin, Meshy, and Tripo. The biggest lesson is that
+                  visual similarity is only the start: correct dimensions,
+                  location, topology, pivots, UVs, collision, and instancing are
+                  what make an asset truly game-ready. Blender automation and
+                  Unreal MCP let me validate all of that quickly enough to build
+                  complete, lively worlds without sacrificing runtime speed.
                 </p>
               </li>
             </ul>
@@ -467,6 +518,19 @@ const About = () => {
             <h4>My Person</h4>
             <ul className="timeline">
               <li>
+                <Link href="https://www.artie.com">
+                  Technical Board Advisor <small>Artie</small>
+                </Link>
+                <Link href="https://www.artie.com" className="float-right" id="cardHover">
+                  Visit Page
+                </Link>
+                <p>
+                  I advise on practical AI teaching—helping turn complex model
+                  concepts, responsible use, and modern build workflows into
+                  lessons that people can understand and apply.
+                </p>
+              </li>
+              <li>
                 <Link href="https://www.hendersonhospital.com/">
                   Volunteer <small>Henderson Hospital</small>
                 </Link>
@@ -474,18 +538,21 @@ const About = () => {
                   Visit Page
                 </Link>
                 <p>
-                  Weekly vounteer at Henderson Hospital focusing on technology improvement, surgical case flow, as well as patient safety
+                  Weekly volunteer at Henderson Hospital focused on technology
+                  improvement, surgical case flow, and patient safety.
                 </p>
               </li>
               <li>
-                <Link href="https://www.hendersonhospital.com/">
+                <Link href="https://www.boisestate.edu/recreation/sports/clubsports/judo-club/">
                   Volunteer <small>Boise State Judo</small>
                 </Link>
-                <Link href="https://www.hendersonhospital.com/" className="float-right" id="cardHover">
+                <Link href="https://www.boisestate.edu/recreation/sports/clubsports/judo-club/" className="float-right" id="cardHover">
                   Visit Page
                 </Link>
                 <p>
-                  Three times weekly vounteer at Boise State University focusing on improving student success in the Judo Dojo. Being a great uke by being tossed by everyone, everywhere.
+                  Three-times-weekly volunteer at Boise State University,
+                  supporting student success in the judo dojo and being a great
+                  uke by getting tossed by everyone, everywhere.
                 </p>
               </li>
               <li>
@@ -500,21 +567,22 @@ const About = () => {
                 </p>
               </li>
               <li>
-                <Link href="https://sbgidaho.com/judo/">
+                <Link href="https://www.usaskateshop.com/story-space-inline-skates-1101005065748-vconf?2=744&amp;0=1460">
                   Rollerblader <small>Eco Friendly</small>
                 </Link>
-                <Link href="https://sbgidaho.com/judo/" className="float-right" id="cardHover">
+                <Link href="https://www.usaskateshop.com/story-space-inline-skates-1101005065748-vconf?2=744&amp;0=1460" className="float-right" id="cardHover">
                   Visit Page
                 </Link>
                 <p>
-                  I rollerblade everywhere. I fill up my car's gas tank twice a year. See you from the bike lane!
+                  I rollerblade everywhere. I fill up my car&apos;s gas tank twice a
+                  year. See you from the bike lane!
                 </p>
               </li>
               <li>
-                <Link href="https://sbgidaho.com/judo/">
+                <Link href="https://www.evo.com/products/196831-burton-flight-attendant-snowboard-2022">
                   Snowboarder <small>Eco Friendly</small>
                 </Link>
-                <Link href="https://sbgidaho.com/judo/" className="float-right" id="cardHover">
+                <Link href="https://www.evo.com/products/196831-burton-flight-attendant-snowboard-2022" className="float-right" id="cardHover">
                   Visit Page
                 </Link>
                 <p>

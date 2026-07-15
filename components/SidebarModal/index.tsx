@@ -21,6 +21,8 @@ interface ISideBarModal {
     technologies?: string[];
     github?: string;
     imageUrl?: string;
+    imageUrls?: string[];
+    imageDisplay?: string;
     about?: string;
     link?: string;
   };
@@ -40,6 +42,12 @@ const SideBarModal: React.FC<ISideBarModal> = ({
   overlayColor,
   data,
 }) => {
+  const projectImages = data?.imageUrls?.length
+    ? data.imageUrls
+    : data?.imageUrl
+    ? [data.imageUrl]
+    : [];
+
   const handleKeyPress = useCallback((e: KeyboardEvent) => {
     if (e.key === 'Escape') {
       closeShow();
@@ -90,7 +98,15 @@ const SideBarModal: React.FC<ISideBarModal> = ({
                 <div className="main__post">
                   <h3 className="mt-4">{data.title}</h3>
                   <p className="te mb-4">{data.description}</p>
-                  <img src={data.imageUrl} alt={data.title} />
+                  <div className={`project-gallery project-gallery--${data.imageDisplay || 'cover'}`}>
+                    {projectImages.map((src, index) => (
+                      <img
+                        key={src}
+                        src={src}
+                        alt={`${data.title} project view ${index + 1}`}
+                      />
+                    ))}
+                  </div>
                   <h4>About</h4>
                   <p>{data.about && data.about}</p>
                   <h4>Technologies</h4>
@@ -301,11 +317,29 @@ const Wrapper = styled.div`
         }
       }
     }
-    img {
-      width: 100%;
-      height: 300px;
-      object-fit: cover;
+    .project-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 0.6rem;
+      padding: 0.6rem;
       border-radius: 11px;
+      background: #10151b;
+    }
+    .project-gallery img {
+      width: 100%;
+      height: 240px;
+      object-fit: contain;
+      border-radius: 11px;
+      image-rendering: -webkit-optimize-contrast;
+    }
+    .project-gallery--cover img {
+      object-fit: cover;
+    }
+    .project-gallery--thumbnail img {
+      width: 180px;
+      height: 180px;
+      max-width: 100%;
+      justify-self: center;
     }
   }
 `;
