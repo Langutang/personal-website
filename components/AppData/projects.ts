@@ -1,5 +1,65 @@
 const PROJECTS_DATA = [
   {
+    title: 'AI.ME',
+    description:
+      'Universal MCP connections and goal-aware agents tailored to how a person or organization works',
+    about:
+      'AI.ME is a durable agent platform for turning personal goals, organizational constraints, policies, and preferred ways of working into practical agent behavior. It combines persisted conversations with universal MCP connections so an agent can work across systems such as Notion, Linear, Sentry, and Slack while preserving human review, access boundaries, and task context. The aim is not a generic assistant; it is an adaptable operating layer that learns what success means for a specific person or team and then helps execute toward it.',
+    link: 'https://github.com/Langutang/aime',
+    github: 'https://github.com/Langutang/aime',
+    imageUrl: '/media/projects/aime-agent-platform.png',
+    type: ['ai-ml', 'open-source'],
+    imageDisplay: 'cover',
+    technologies: [
+      'TypeScript',
+      'MCP',
+      'Durable Agents',
+      'Next.js',
+      'Vercel Connect',
+      'Postgres',
+    ],
+  },
+  {
+    title: 'TestAId',
+    description:
+      'Privacy-aware AI coaching for radiology, MCAT, and medical board or licensure practice',
+    about:
+      'TestAId is a Chrome extension and FastAPI learning service that evaluates visible practice questions, images, fill-in-the-blank responses, and essays. It is tailored first to radiologic technologist board preparation, with an extensible grading and vision architecture for MCAT and other medical board or licensure exams. Configurable OpenAI, hybrid, and local Ollama lanes support different privacy and performance needs, while conditional vision activates only when the question requires medical imagery. Strict schemas, parser adapters, image redaction, and privacy-aware persistence keep the feedback dependable and focused on learning rather than answer extraction.',
+    link: 'https://github.com/Langutang/graduate-bun',
+    github: 'https://github.com/Langutang/graduate-bun',
+    imageUrl: '/media/projects/testaid-medical-learning.png',
+    type: ['ai-ml', 'open-source'],
+    imageDisplay: 'cover',
+    technologies: [
+      'Chrome MV3',
+      'FastAPI',
+      'Ollama',
+      'Vision LLMs',
+      'OpenAI',
+      'TypeScript',
+    ],
+  },
+  {
+    title: 'Atlas',
+    description:
+      'Contract intelligence, conversational editing, and provision-level risk analysis for AIA documents',
+    about:
+      'I built Atlas as the AI assistant for AIA Contract Documents. It lets authorized users ask questions across contracts and application data, propose contract edits through chat, highlight AI-authored changes for human review, and analyze risk provision by provision. A multi-system whole-text embedding architecture supports contract and application understanding, while an RBAC-aware MCP layer limits tools and data to each user\'s credentials. The source repository remains private under company policy; the linked AIA article describes the public workflow and product direction.',
+    link:
+      'https://learn.aiacontracts.com/articles/how-to-use-ai-assistant-construction-contracts/',
+    imageUrl: '/media/projects/atlas-ai-assistant.jpg',
+    type: ['ai-ml'],
+    imageDisplay: 'cover',
+    technologies: [
+      'Azure AI Foundry',
+      'MCP',
+      'RAG',
+      'Vector Databases',
+      'RBAC',
+      'Document Intelligence',
+    ],
+  },
+  {
     title: 'Return of the Mesh',
     description:
       'Residential plans to reviewed IFC and FBX based game-ready homes',

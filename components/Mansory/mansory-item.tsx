@@ -145,40 +145,30 @@ const MansoryItemStyle = styled.div`
       #10151b;
   }
 
-  .item-media--cover .media-image {
+  .item-media .media-image {
+    position: absolute !important;
+    inset: 0;
     width: 100% !important;
     height: 100% !important;
     object-fit: cover;
+    object-position: center;
+    image-rendering: auto;
   }
 
   .item-media--thumbnail {
-    display: grid;
-    place-items: center;
-    padding: 2rem 2rem 7rem;
+    padding: 0;
   }
 
   .item-media--thumbnail .media-image {
-    position: static !important;
-    width: 180px !important;
-    height: 180px !important;
-    max-width: 72%;
-    max-height: 72%;
-    object-fit: contain;
-    image-rendering: -webkit-optimize-contrast;
-    filter: contrast(1.05) saturate(1.04);
+    object-fit: cover;
   }
 
   .item-media--gallery {
-    display: grid;
-    place-items: center;
-    padding: 1.2rem 1.2rem 6.5rem;
+    padding: 0;
   }
 
   .item-media--gallery .media-image {
-    position: static !important;
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: contain;
+    object-fit: cover;
   }
 
   &:before {

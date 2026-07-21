@@ -12,7 +12,7 @@ import Layout, { PageWrapper } from '../components/Layout';
 import FooterLink from '../components/Footer';
 
 /* ---------------------------- Image Dependency ---------------------------- */
-import { Date, Github, Rocket, Product, Medium } from '../components/Icons';
+import { Date, Linkedin, Rocket } from '../components/Icons';
 
 const About = () => {
   return (
@@ -29,23 +29,23 @@ const About = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Open John Lang's GitHub profile"
-                  href="https://github.com/Langutang"
+                  aria-label="Open John Lang's LinkedIn profile"
+                  href="https://www.linkedin.com/in/johnvjlang/"
                 >
                   Leadership{' '}
                   <small>
-                    <Github />
+                    <Linkedin />
                   </small>
                 </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Open John Lang's GitHub profile"
+                  aria-label="Open John Lang's LinkedIn profile"
                   id="cardHover"
-                  href="https://github.com/Langutang"
+                  href="https://www.linkedin.com/in/johnvjlang/"
                   className="float-right"
                 >
-                  View GitHub
+                  View LinkedIn
                 </a>
                 <p>
                   Versatility is the center of how I lead. I can take the latest
@@ -60,19 +60,19 @@ const About = () => {
                 </p>
               </li>
               <li>
-                <Link href="https://github.com/Langutang" aria-label="Open John Lang's GitHub profile">
+                <Link href="https://www.linkedin.com/in/johnvjlang/" aria-label="Open John Lang's LinkedIn profile">
                   Applied AI Architecture{' '}
                   <small>
-                    <Product />
+                    <Linkedin />
                   </small>
                 </Link>
                 <Link
-                  href="https://github.com/Langutang"
-                  aria-label="Open John Lang's GitHub profile"
+                  href="https://www.linkedin.com/in/johnvjlang/"
+                  aria-label="Open John Lang's LinkedIn profile"
                   id="cardHover"
                   className="float-right"
                 >
-                  View GitHub
+                  View LinkedIn
                 </Link>
                 <p>
                   I turn model capability into dependable products. That can mean
