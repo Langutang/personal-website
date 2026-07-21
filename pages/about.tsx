@@ -309,7 +309,7 @@ const About = () => {
                   rel="noopener noreferrer"
                   id="cardHover"
                   aria-label="Open Link Learning to Learn [Efficient Learning] "
-                  href="https://www.coursera.org/account/accomplishments/specialization/CGVHHHDB38P9"
+                  href="https://coursera.org/share/1d793346e14fb3160c04079c9fe667d2"
                 >
                   Strategic Leadership and Management <small>University of Illinois</small>
                 </a>
@@ -327,7 +327,7 @@ const About = () => {
                   rel="noopener noreferrer"
                   id="cardHover"
                   aria-label="Open Link Adaptive Leadership"
-                  href="https://www.coursera.org/account/accomplishments/specialization/JFA6BJ292E8Y"
+                  href="https://coursera.org/share/dc08c1fc3e6c123de0e53bdf6ad472ec"
                 >
                   Data Science and Machine Learning <small>John's Hopkins University</small>
                 </a>
@@ -345,7 +345,7 @@ const About = () => {
                   rel="noopener noreferrer"
                   id="cardHover"
                   aria-label="Open Link Learning to Learn [Efficient Learning] "
-                  href="https://www.coursera.org/account/accomplishments/specialization/CGVHHHDB38P9"
+                  href="https://coursera.org/share/b5455780c0cb3bd33cb52b7a8d205afe"
                 >
                   Entrepreneurship <small>Pennsylvania University</small>
                 </a>
